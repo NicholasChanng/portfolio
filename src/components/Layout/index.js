@@ -1,18 +1,30 @@
 import Sidebar from '../Sidebar';
 import Menu from '../Menu'
+import { Outlet } from 'react-router-dom';
 import './index.scss';
 
 const Layout = () => {
     return (
         <div className="App">
           <Sidebar/>
-          <div>
-            <Menu/>
-          </div>
-          <div className="page">
-            <span className="tags middle-text">Hi! My Name is Nicholas Channg and
-            I am a Freshman studying Computer Science at Cornell University.</span>
-          </div>
+          <Menu/>
+          <Outlet/>
+          <span className = "background-text">
+            01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101 <br/>
+            01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101 <br/>
+            01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101 <br/>
+            01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101 <br/>
+            01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101 <br/>
+            01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101 <br/>
+            01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101 <br/>
+            01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101 <br/>
+          </span>
+
+          <span className="tags top-div">&lt;div&gt;</span>
+          <span className="tags top-html">&lt;html&gt;</span>
+          <span className="tags bottom-html">&lt;/html&gt;</span>
+          <span className="tags bottom-div">&lt;/div&gt;</span>
+
       </div>
     )
 }
