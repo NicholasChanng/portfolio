@@ -7,9 +7,11 @@ import {
     faEnvelope,
   } from '@fortawesome/free-solid-svg-icons'
 import './index.scss';
+import Loader from 'react-loaders';
 
 const Home = () =>{
     return (
+        <>
         <div className = "container home-page">
             <div className = "text-zone">
                 <h1>
@@ -48,6 +50,8 @@ const Home = () =>{
                     &nbsp; Resume</Link>
              </div>
         </div>
+        <Loader type="ball-pulse-sync" />
+        </>
     );
 }
 
