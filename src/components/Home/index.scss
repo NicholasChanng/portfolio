@@ -1,10 +1,11 @@
 @import '~loaders.css/src/animations/ball-pulse-sync.scss';
 
 .home-page{
+    height: 100%;
     .text-zone{
        position: absolute;
-       margin-left: 9%;
-       top: 30%;
+       left: 9%;
+       top: 25%;
     }
 
     h1{
