@@ -1,6 +1,7 @@
 .contact-page{
     height: 100%;
-    
+    overflow: auto;
+
     .text-zone{
         position: absolute;
         left: 9%;
@@ -8,6 +9,8 @@
         color: White;
         font-size: 30px;
         font-weight: 100;
+        width: 70%;
+
         h1{
             margin-bottom: 0px;
         }
@@ -22,7 +25,7 @@
             
         }
         li.half {
-            width: 370px;
+            width: calc((100% - 5px) /2);
             margin-right: 5px;
             float: left;
             clear: none;

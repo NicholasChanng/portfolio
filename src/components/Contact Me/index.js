@@ -1,7 +1,26 @@
 import Loader from 'react-loaders';
 import './index.scss';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 const Contact = () =>{
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault()
+    
+        emailjs
+          .sendForm('service_icur91b', 'template_702d8ul', form.current, 'kN2GlYw0W2n_pNOHf')
+          .then(
+            () => {
+              alert('Message successfully sent!')
+              window.location.reload(false)
+            },
+            () => {
+              alert('Failed to send the message, please try again')
+            }
+          )
+      }
     return(
         <>
         <div className= "container contact-page">
@@ -10,11 +29,11 @@ const Contact = () =>{
                     Contact Me
                 </h1>
                 <p>
-                    I am actively seeking internships and jobs in the tech field, <br/>
-                    but any opportunties are greatly appreciated. Please feel free <br/>
+                    I am actively seeking internships and jobs in the tech field,
+                    but any opportunties are greatly appreciated. Please feel free
                     to reach out using the form below. 
                 </p>
-                <form>
+                <form ref = {form} onSubmit={sendEmail}>
                     <li className="half">
                         <input type = "text" name = "name" placeholder="Name" required/>
                     </li>
