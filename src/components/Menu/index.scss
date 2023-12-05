@@ -27,9 +27,13 @@ a {
     cursor: pointer;
     background-color: #fff;
     z-index: 50;
+    &:hover{
+      transform: scale(1.2,1.2) ;
+    }  
+
   }
 
-
+ 
 .dropdown-menu{
     position: absolute;
     top: 95px;
