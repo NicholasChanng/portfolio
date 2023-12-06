@@ -13,65 +13,44 @@
     padding: 4px 0;
 
     img {
-      display: inline-block;
+      display: absolute;
       width: 50px;
       height: 50px;
 
       &.sub-logo {
         width: auto;
+        display: absolute;
         
       }
     }
   }
 
   nav {
-    display: block;
-    text-align: right;
+    display: inline-block;
     position: absolute;
-    right: 100px;
-    margin-top: -54px;
-    top: 100%;
-    width: 100%;
+    right: 0;
+    margin-right: 85px;
+    top: 7px;
+    width: auto;
+    background-color: #181818;
+
     a {
       font-size: 37px;
       color: #4d4d4e;
       display: inline-block;
-      position: relative;
-      width: 75px;
+      width: auto;
       text-decoration: none;
-    
-      &:hover {    
+      margin-left: 15px;
+      margin-right: 15px;
+
+      &:hover {
         svg {
           color: #c2ced7;
         }
       }
     }
+    
   }
 
-  ul{    
-    position: absolute;
-    text-align: center;
-    display: block;
-    list-style: none;
-    margin: 0;
-    margin-left: -20px;
-    top:100%;
-
-    li {
-      a {
-        position: relative;
-        padding: 2px 0;
-        display: inline-block;
-        font-size: 37px;
-        color: #4d4d4e;
-      }
-
-      &:hover {
-        .anchor-icon {
-          color: #c2ced7;
-        }
-      }
-    }
-  }
 }
     

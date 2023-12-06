@@ -39,8 +39,8 @@ const Menu = () =>{
         <ul>
           <DropdownItem img = {faLinkedin} text = {"Linkin"} 
           href="https://www.linkedin.com/in/nicholaschanng/" target="_blank" rel="noreferrer"/>
-          <DropdownItem img = {faGithub} text = {"Github"} 
-          href="https://gist.github.com/NicholasChanng/" target="_blank" rel="noreferrer"/>
+          <DropdownItem img = {faGithub} text = {"GitHub"} 
+          href="https://github.com/NicholasChanng/" target="_blank" rel="noreferrer"/>
           <DropdownItem img = {faFileLines} text = {"Resume"} 
           href="https://docs.google.com/document/d/1X9eCtOV4b3hAHcveuq3-ebRm1y5h25T66c6AxbJhwh0/edit?usp=sharing" target="_blank" rel="noreferrer"/>
         </ul>
