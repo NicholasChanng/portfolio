@@ -4,12 +4,13 @@ html {
 
 body {
   margin: 0;
-  font: 300 11px/1.4 'VT323', sans-serif;
-  color: #444;
-  background: #242526;
+  font: 300 11px/1.4 'Coolvetica', sans-serif;
+  color: white;
+  background: #242526 ;
   overflow: hidden;
   display: block;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-y: visible;
 } 
 

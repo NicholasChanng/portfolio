@@ -5,63 +5,10 @@
 
 }
 
-
-.background-text{
-    height: 30%;
-    color: #ffff;
-    opacity: .20;
-    font-weight: 500;
-    position: absolute;
-    bottom: -10%;
-    right: -20%;
-    font-size: 28px;
-    font-family: 'VT323', serif;
-    user-select: none;
-    transform: rotate(-30deg);
-}
-
-.tags{
-    color: #ffff;
-    opacity: .20;
-    font-weight: 500;
-    font-size: 30px;
-    position: absolute;
-    user-select: none;
-}
-
-.top-div{
-    top: 11.75%;
-    margin-top: 25px;
-    margin-left: 100px; 
-}
-
-.bottom-div{
-    bottom: 10%;
-    margin-left: 100px; 
-    
-}
-
-.top-html{
-    top: 7%;
-    margin-top: 25px;
-    margin-left: 10px; 
-}
-
-.bottom-html{
-    bottom: 5%;
-    margin-left: 10px;
-}
-
 .container {
-    width: 100%;
     will-change: contents;
-    height: 90%;
-    min-height: 566px;
-    position: absolute;
+    margin: 0;
     opacity: 0;
-    top: 5%;
-    margin: 0 auto;
-    z-index: 1;
     transform-style: preserve-3d;
     animation: fadeIn .75s forwards;
     animation-delay: 1s;

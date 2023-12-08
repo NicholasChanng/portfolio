@@ -1,7 +1,6 @@
 .contact-page{
-    height: 100%;
-    width:100%;
-    overflow: auto;
+    height: calc(100vh - 60px);
+    width:100vw;
 
     .text-zone{
         position: absolute;
@@ -80,7 +79,6 @@ textarea {
     border-radius: 4px;
     background: 0 0;
     text-transform: uppercase;
-    float: right;
     text-align: center;
     margin-right: 10px;
 
