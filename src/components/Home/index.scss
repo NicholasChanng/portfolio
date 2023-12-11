@@ -4,24 +4,36 @@
 .home-section{
   height: auto;
   width:100%;
-  
+    .home-page{
+      box-sizing: border-box;
+      padding: 0 30px;
+      margin: 0 auto;
+      width: var(--width);
+
+      @media (max-width: 1020px) {
+        width: 90vw;
+      }
+
       .flex-box{
         display: flex;
         align-items: flex-start;
         justify-content: space-between;
         gap: 10px;
-        padding-top: 100px;
-        padding-left: 10%;
+        padding-top: 160px;
         height: auto;
-        width: 80%;
+
+        @media (max-width: 1020px) {
+          flex-direction: column-reverse;
+          gap: 0px;
+        }
 
         h1{
           color: white;
-          font-size: 40px;
+          font-size: 30px;
           font-weight: 200;
           width: auto;
           .welcome{
-            font-size: 75px;
+            font-size: 55px;
             font-weight: 300;
           }
           .wave{
@@ -69,49 +81,76 @@
             border-radius:  60% 40% 30% 70%/60% 30% 70% 40%;
             position: relative;
             transition: all 1s ease-in-out;
-        
+            
+            @media (max-width: 1020px) {
+              height: auto;
+              width: 40vw;
+            }
           }
         }
-    
+      }
   }
 }
+
+.line{
+  height: 3px;
+  width: 1400px;
+  
+}
+
 
 .skills-section{
   height: auto;
   width: 100%;
   padding-top: 100px;
   .skills-page{
-    position: relative;
-    padding: 0 10%;
-    width: 100%;
+    box-sizing: border-box;
+    padding: 0 30px;
+    margin: 0 auto;
+    width: var(--width);
+    height: auto;
+    @media (max-width: 1020px) {
+      width: 90vw;
+    }
+
     .flex-box{
       display: flex;
       flex-direction: column;
-      width: 80%;
+      width: 100%;
+
+      @media (max-width: 1020px) {
+        align-items: center;
+      }
       .skills-text{
-        font-size: 50px;
+        font-size: var(--title-font-size);
         margin-bottom: 10px;
         font-weight: 200;
       }
 
-      .skills-images{
-        display: flex;
-        justify-content: space-evenly;
+      .image-area{
         background-color: #181818;
         border-radius: 20px;
-        .skill {
-          margin: 20px 0;
-          max-width: 100px;
-          max-height: 100px;
-          height: auto;
-          width: 10vw;
-        }
+
+        .skills-images{
+          display: flex;
+          justify-content: space-evenly;
+          // animation: slide 5s linear infinite;
+          @media (max-width: 1020px) {
+            width: 90vw;
+          }
+
+          .skill {
+            margin: 20px 0;
+            max-width: 100px;
+            max-height: 100px;
+            height: auto;
+            width: 10vw;
+          }
+      }
       }
     }
   }
 }
-
-
 
 .experience-section{
   height: auto;
@@ -121,17 +160,26 @@
 
     .experience-page{
       box-sizing: border-box;
-      position: relative;
-      padding: 0 10%;
-      width: 100%;
+      padding: 0 30px;
+      margin: 0 auto;
+      width: var(--width);
       height: auto;
-      border-radius: 20px;
       padding-top: 50px;
+
+      @media (max-width: 1020px) {
+        width: 90vw;
+        padding: 0;
+      }
+
       .flex-box{
         display: flex;
         flex-direction: column;
+
+        @media (max-width: 1020px) {
+          align-items: center;
+        }
         .title{
-          font-size: 50px;
+          font-size: var(--title-font-size);
           font-weight: 200;
           margin: 0;
         }
@@ -140,16 +188,27 @@
           font-weight: 100;
           margin-top: 10px;
           margin-bottom: 10px;
+
+          @media (max-width: 1020px) {
+            font-size: 15px;
+          }
+
         }
 
         .job-content{
           box-sizing: border-box;
           display: flex;
           width: 100%;
-          height: 50vh;
+          height: auto;
           margin-bottom: 35px;
           border-radius: 20px;
           background-color: #181818;
+          align-items: center;
+          
+          @media (max-width: 1020px) {
+              flex-direction: column;
+              width: 70vw;
+          }
 
           .description-area{
             display: flex;
@@ -175,103 +234,94 @@
           
           .image-area{
             width: 50%;
-            .image-prop{
-              height:  calc(100% - 50px);
-              width: calc(100% - 50px);
-              margin-top: 25px;
-              margin-left: 25px;
-              border-radius: 20px;
+            margin: 15px 0;
+            height: auto;
+
+
+
+            @media (max-width: 1020px) {
+              flex-direction: column;
+              width: 100%;
             }
-            &:hover{
-              animation: hover 1.5s ease-in-out infinite;
+            a{
+              display: flex;
+              justify-content: space-around;
+              width: auto;
+              margin: 0 8px;
+
+              .image-prop{
+                width: 95%;
+                
+                border-radius: 20px;
+
+                &:hover{
+                  animation: hover 1.5s ease-in-out infinite;
+                }
+              }
             }
           }
-
         }
     }
   }
 }
-  
 
-
-
-
-
-
-
-@media screen and (max-width: 1220px) {
-  .home-section {
-    height: auto;
-    width: 100%;
-    .flex-box{
-      flex-direction: column;
-      h1{
-        font-size: max(3vw, 30px);
-        .welcome{
-          font-size: max(5vw, 50px);
-        }
-        .wave{
-          height: max(3vw, 80px);
-          width: max(3vw, 80px);
-
-        }
-      }
-      .photo-zone{
-        order: -1;
-        img{
-          max-height: 300px;
-          max-width: 300px;
-          height: 50vw;
-          width: 50vw;
-        }
-      }
-
-    
-    }
+@media (max-width: 1020px) {
+  #experience1{
+    order: -1;
   }
 }
 
 @keyframes morph{
-0% {
-    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-}
-
-50% {
-    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
-}
-100% {
-    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-}
-}
-
-@keyframes wave {
-0% {
-    transform: rotate(-15deg);
-}
-
-
-50% {
-    transform: rotate(10deg);
-}
-
-
-100% {
-    transform: rotate(-15deg);
-}
-}
+  0% {
+      border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+  
+  50% {
+      border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  }
+  100% {
+      border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+  }
+  
+  @keyframes wave {
+  0% {
+      transform: rotate(-15deg);
+  }
+  
+  
+  50% {
+      transform: rotate(10deg);
+  }
+  
+  
+  100% {
+      transform: rotate(-15deg);
+  }
+  }
 
 @keyframes hover {
-0%{
-  transform: scale(1,1);
-}
+  0%{
+    transform: scale(1,1);
+  }
+  
+  50%{
+    transform: scale(1.05,1.05);
+  }
+  
+  100%{
+    transform: scale(1,1);
+  }
+  }
 
-50%{
-  transform: scale(1.05,1.05);
-}
+// @keyframes slide {
+//   0% {
+//       transform: translateX(calc(10px * -1))
+//   }
 
-100%{
-  transform: scale(1,1);
-}
-}
+//   100% {
+//       transform: translateX(calc(-100% - 10px * 2))
+//   }
+// }
 
 

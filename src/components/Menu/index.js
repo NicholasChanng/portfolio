@@ -36,7 +36,7 @@ const Menu = () =>{
   });
 
   return (
-      <div className = "menu-container" ref={menuRef}>
+    <div className = "menu-container" ref={menuRef}>
       <div className= " menu-trigger" onClick={()=>{setOpen(!open)}}>
         <img src={LogoS} alt = 'logo'/>
       </div>

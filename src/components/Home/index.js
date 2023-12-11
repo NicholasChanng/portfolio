@@ -26,51 +26,57 @@ const Home = () =>{
     return (
         <>
         <section className='container home-section'>
-            <div className="flex-box">
-                <div className='left-text'>
-                    <h1>
-                        <span className='welcome'>Welcome!</span><img src={wave} alt = 'wave' className = 'wave'/>
-                        <br/> My name is Nicholas Channg <br/> 
-                        I am a Freshman studying Computer Science at Cornell University
-                    </h1>
-                    <div className='buttons'>
-                        {/* <Link className = "flat-button" to = "/experience">
-                        <FontAwesomeIcon
-                            icon = {faListCheck}
-                            color="white"
-                            className="anchor-icon"/>
-                            &nbsp; Experience</Link>
-                        <Link className = "flat-button" to = "/contact">
-                        <FontAwesomeIcon
-                            icon = {faEnvelope}
-                            color="white"
-                            className="anchor-icon"/>
-                            &nbsp; Contact Me</Link> */}
-                        <Link className = "flat-button" to = "https://www.linkedin.com/in/nicholaschanng/" target="_blank" rel="noreferrer">
-                        <FontAwesomeIcon
-                            icon = {faLinkedin}
-                            color="white"
-                            className="anchor-icon"/>
-                            &nbsp; LinkedIn</Link>
-                        <Link className = "flat-button" to = "https://github.com/NicholasChanng/" target="_blank" rel="noreferrer">
-                        <FontAwesomeIcon
-                            icon = {faGithub}
-                            color="white"
-                            className="anchor-icon"/>
-                            &nbsp; GitHub</Link>
-                        <Link className = "flat-button" to = "https://docs.google.com/document/d/1X9eCtOV4b3hAHcveuq3-ebRm1y5h25T66c6AxbJhwh0/edit?usp=sharing" target="_blank" rel="noreferrer">
-                        <FontAwesomeIcon
-                            icon = {faFileLines}
-                            color="white"
-                            className="anchor-icon"/>
-                            &nbsp; Resume</Link>
+            <div className='home-page'>
+                <div className="flex-box">
+                    <div className='left-text'>
+                        <h1>
+                            <span className='welcome'>Welcome!</span><img src={wave} alt = 'wave' className = 'wave'/>
+                            <br/> My name is Nicholas Channg <br/> 
+                            I am a Freshman studying Computer Science at Cornell University
+                        </h1>
+                        <div className='buttons'>
+                            {/* <Link className = "flat-button" to = "/experience">
+                            <FontAwesomeIcon
+                                icon = {faListCheck}
+                                color="white"
+                                className="anchor-icon"/>
+                                &nbsp; Experience</Link>
+                            <Link className = "flat-button" to = "/contact">
+                            <FontAwesomeIcon
+                                icon = {faEnvelope}
+                                color="white"
+                                className="anchor-icon"/>
+                                &nbsp; Contact Me</Link> */}
+                            <Link className = "flat-button" to = "https://www.linkedin.com/in/nicholaschanng/" target="_blank" rel="noreferrer">
+                            <FontAwesomeIcon
+                                icon = {faLinkedin}
+                                color="white"
+                                className="anchor-icon"/>
+                                &nbsp; LinkedIn</Link>
+                            <Link className = "flat-button" to = "https://github.com/NicholasChanng/" target="_blank" rel="noreferrer">
+                            <FontAwesomeIcon
+                                icon = {faGithub}
+                                color="white"
+                                className="anchor-icon"/>
+                                &nbsp; GitHub</Link>
+                            <Link className = "flat-button" to = "https://docs.google.com/document/d/1X9eCtOV4b3hAHcveuq3-ebRm1y5h25T66c6AxbJhwh0/edit?usp=sharing" target="_blank" rel="noreferrer">
+                            <FontAwesomeIcon
+                                icon = {faFileLines}
+                                color="white"
+                                className="anchor-icon"/>
+                                &nbsp; Resume</Link>
+                        </div>
                     </div>
+                    <span className='photo-zone'>
+                            <img src={LogoS} alt = "logo"/>
+                    </span>
                 </div>
-                <span className='photo-zone'>
-                        <img src={LogoS} alt = "logo"/>
-                </span>
             </div>
         </section>
+
+        <div className='line'>
+            
+        </div>
 
         <section className='container skills-section'>
             <div className='skills-page'>
@@ -78,13 +84,15 @@ const Home = () =>{
                     <h1 className='skills-text'>
                         Skills 🛠️
                     </h1>
-                    <div className='skills-images'>
-                        <img className = 'skill' src = {javascript} alt = 'skill'/>
-                        <img className = 'skill' src = {css} alt = 'skill'/>
-                        <img className = 'skill' src = {html} alt = 'skill'/>
-                        <img className = 'skill' src = {react} alt = 'skill'/>
-                        <img className = 'skill' src = {java} alt = 'skill'/>
-                        <img className = 'skill' src = {python} alt = 'skill'/>
+                    <div className='image-area'>
+                        <div className='skills-images'>
+                            <img className = 'skill' src = {javascript} alt = 'skill'/>
+                            <img className = 'skill' src = {css} alt = 'skill'/>
+                            <img className = 'skill' src = {html} alt = 'skill'/>
+                            <img className = 'skill' src = {react} alt = 'skill'/>
+                            <img className = 'skill' src = {java} alt = 'skill'/>
+                            <img className = 'skill' src = {python} alt = 'skill'/>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -145,7 +153,7 @@ const Experience1 = (prop) =>{
                     {prop.description}
                 </p>
             </div>
-            <div className='image-area'>
+            <div className='image-area' id='experience1'>
                  <Link to = {prop.to} target = "_blank" rel="noreferrer">
                   <img src = {prop.imagesrc} className = 'image-prop' alt = {prop.imagetitle}/>
                 </Link>
