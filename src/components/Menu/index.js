@@ -1,13 +1,13 @@
 import './index.scss';
 import LogoS from '../../assets/images/nickcircle.png'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faFileLines} from '@fortawesome/free-solid-svg-icons';
+import {faFolderOpen} from '@fortawesome/free-solid-svg-icons';
 import {faLinkedin,faGithub} from '@fortawesome/free-brands-svg-icons';
-import {
-  faHome,
-  faListCheck,
-  faEnvelope,
-} from '@fortawesome/free-solid-svg-icons'
+// import {
+//   faHome,
+//   faListCheck,
+//   faEnvelope,
+// } from '@fortawesome/free-solid-svg-icons'
 
 
 import React, {useState, useEffect, useRef} from 'react';
@@ -43,17 +43,17 @@ const Menu = () =>{
       <div className= {`dropdown-menu ${open? 'active' : 'inactive'}`}>
         <h3>Nicholas Channg<br/><span>Computer Science Student</span></h3>
         <ul>
-          <DropdownItem img = {faHome} text = {"Home"} 
+          {/* <DropdownItem img = {faHome} text = {"Home"} 
           to = '/'/>
           <DropdownItem img = {faListCheck} text = {"Experience"} 
           href="/experience"/>
           <DropdownItem img = {faEnvelope} text = {"Contact Me"} 
-          href="/contact"/>
+          href="/contact"/> */}
           <DropdownItem img = {faLinkedin} text = {"Linkin"} 
           href="https://www.linkedin.com/in/nicholaschanng/" target="_blank" rel="noreferrer"/>
           <DropdownItem img = {faGithub} text = {"GitHub"} 
           href="https://github.com/NicholasChanng/" target="_blank" rel="noreferrer"/>
-          <DropdownItem img = {faFileLines} text = {"Resume"} 
+          <DropdownItem img = {faFolderOpen} text = {"Resume"} 
           href="https://docs.google.com/document/d/1X9eCtOV4b3hAHcveuq3-ebRm1y5h25T66c6AxbJhwh0/edit?usp=sharing" target="_blank" rel="noreferrer"/>
           
         </ul>

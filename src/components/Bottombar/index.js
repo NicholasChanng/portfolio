@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faLinkedin,faGithub} from '@fortawesome/free-brands-svg-icons';
-import {faFileLines} from '@fortawesome/free-solid-svg-icons';
+import {faFolderOpen} from '@fortawesome/free-solid-svg-icons';
 import './index.scss';
 
 const Bottombar = () => {
@@ -31,7 +31,7 @@ const Bottombar = () => {
                         </Link>
                         <Link className = "social-button" to = "https://docs.google.com/document/d/1X9eCtOV4b3hAHcveuq3-ebRm1y5h25T66c6AxbJhwh0/edit?usp=sharing" target="_blank" rel="noreferrer">
                             <FontAwesomeIcon
-                            icon = {faFileLines}
+                            icon = {faFolderOpen}
                             color="white"
                             className="anchor-icon"/>
                         </Link>

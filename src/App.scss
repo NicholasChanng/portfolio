@@ -46,10 +46,15 @@ input,
     animation: fadeOut 1s 1s;
     animation-fill-mode: forwards;
   }
-
+  
+ 
 
 :root{
-  --width: 1000px; 
+  --width: 1200px; 
   --title-font-size: 30px;
+  --border-radius: 15px;
+  --shadow-values: 0 0 5px 2px #3f3f3f;
+  --fade-ranges: entry 0% cover 30%;
+
 }
 
