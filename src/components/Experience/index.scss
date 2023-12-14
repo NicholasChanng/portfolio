@@ -150,7 +150,7 @@
       }
       .project-area{
         display: grid;
-        grid-template-columns: 33% 33% 33%;
+        grid-template-columns: 33.33% 33.33% 33.33%;
 
         @media (max-width: 1220px) {
           grid-template-columns: 50% 50%;

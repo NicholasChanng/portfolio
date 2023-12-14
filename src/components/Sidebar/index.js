@@ -24,7 +24,7 @@ const Sidebar = () => (
             </a>
         
             <a href = "#portfolio">
-            Experience
+            Portfolio
             </a>
         
             <a href = "#contact">

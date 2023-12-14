@@ -37,8 +37,6 @@ const Experience = () =>{
                     lang7 = ""
                     />
 
-                    
-
                     <Experience2
                     title = 'New Jersey Cybersecurity and Communications Integration Cell'
                     position = 'Intern' 
@@ -74,7 +72,7 @@ const Experience = () =>{
                     </h1>
                     <div className='project-area'>
                         <Project 
-                        title = "Porftolio Website"
+                        title = "Portfolio Website"
                         imagesrc = {portfolio}
                         imagetitle = 'portfolio'
                         to = ''

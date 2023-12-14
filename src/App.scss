@@ -79,7 +79,7 @@ input,
       height: auto;
   
       @media (max-width: 1220px) {
-        width: 95vw;
+        width: var(--media-width);
       }
     }
 }
@@ -101,7 +101,7 @@ input,
   --border-radius: 15px;
   --shadow-values: 0 0 5px 2px #ffffff0e;
   --fade-ranges: entry 0% cover 20%;
-
+  --media-width: 97.5vw;
   
   --background-color: #242526;
   --secondary-background-color: #181818;

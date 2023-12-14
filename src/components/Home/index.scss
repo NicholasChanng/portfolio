@@ -2,7 +2,6 @@
 
 
 .home-section{
-  padding-top: 180px;
     .home-page{
       .flex-box{
         display: flex;
@@ -162,7 +161,7 @@
   animation-range: var(--fade-ranges);    
 
   @media (max-width: 1220px){
-    width: 95vw;
+    width: 90vw;
   }
 }
 

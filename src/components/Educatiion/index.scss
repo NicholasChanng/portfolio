@@ -28,6 +28,9 @@
             .cornell-title{
               display: flex;
               justify-content: space-between;
+              @media (max-width: 550px) {
+               flex-direction: column; 
+              }
               p{
                 margin: 0 0 5px;
               }
@@ -47,6 +50,9 @@
             .brhs-title{
               display: flex;
               justify-content: space-between;
+              @media (max-width: 550px) {
+                flex-direction: column; 
+               }
               p{
                 margin: 0 0 5px;
               }
