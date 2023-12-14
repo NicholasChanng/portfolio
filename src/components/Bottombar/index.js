@@ -11,9 +11,11 @@ const Bottombar = () => {
             <div className='bottom-bar-page'>
                 <div className='container-area'>
                     <div className='made-by'>
-                        <h1>
+                        <Link to = "https://github.com/NicholasChanng/portfolio" target="_blank" rel="noreferrer">
+                            <h1>
                             made by Nick
-                        </h1>
+                            </h1>
+                        </Link>
                     </div>
 
                     <div className='social-area'>

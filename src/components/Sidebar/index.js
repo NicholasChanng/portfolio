@@ -1,6 +1,6 @@
 import './index.scss';
 import LogoS from '../../assets/images/FlamingLogo.png';
-import {Link,NavLink} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import Menu from '../Menu'
 
 
@@ -15,20 +15,21 @@ const Sidebar = () => (
         </Link>
         <div className='link-area'>
           <nav className='links'>
-            <NavLink exact = "true" activeclassname= "active" to = "/">
-            {/* <FontAwesomeIcon icon = {faHome} color = "#4d4d4e"/> */}
-            Home
-            </NavLink>
+            <a href = "#home">
+              Home
+            </a>
+
+            <a href = "#education">
+            Education
+            </a>
         
-            <NavLink exact = "true" activeclassname= "active" className = "experience-link" to = "/experience">
-            {/* <FontAwesomeIcon icon = {faListCheck} color = "#4d4d4e"/> */}
+            <a href = "#portfolio">
             Experience
-            </NavLink>
+            </a>
         
-            <NavLink exact = "true" activeclassname= "active" className = "contact-link"to = "/contact">
-            {/* <FontAwesomeIcon icon = {faEnvelope} color = "#4d4d4e"/> */}
+            <a href = "#contact">
             Contact
-            </NavLink>
+            </a>
           </nav>
           <Menu/>
         </div>

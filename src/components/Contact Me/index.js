@@ -1,4 +1,3 @@
-import Loader from 'react-loaders';
 import './index.scss';
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
@@ -23,7 +22,7 @@ const Contact = () =>{
       }
     return(
         <>
-        <section className= "container contact-section">
+        <section id = 'contact' className= "container contact-section">
             <div className='page'>
             <div className="text-zone">
                 <h1>
@@ -54,7 +53,6 @@ const Contact = () =>{
                 </div>
             </div>
         </section>
-        <Loader type="ball-pulse-sync" />
         </>
     )
 }

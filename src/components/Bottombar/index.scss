@@ -24,7 +24,16 @@
       box-shadow: var(--shadow-values);
       align-items: center;
       .made-by{
-          
+        h1{
+          color: var(--font-color);
+          transition: all 0.5s ease;
+
+        &:hover{
+          color: var(--secondary-color);
+          transform: translateY(-5px);
+        }
+        }
+
       }
       .social-area{
         a{
