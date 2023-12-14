@@ -1,56 +1,92 @@
 .nav-bar{
-  background: #181818;
+  position: sticky;
+  top: 20px;
   width: 100%;
-  height: 60px;
-  position: absolute;
+  height: auto;
   z-index: 3;
+  .nav-bar-page{
+    box-sizing: border-box;
+    padding: 0 30px;
+    margin: 0 auto;
+    width: var(--width);
+    margin-top: 20px;
 
-
-  .logo {
-    position: absolute;
-    left: 0px;
-    display: block;
-    padding: 4px 0;
-
-    img {
-      display: absolute;
-      width: 50px;
-      height: 50px;
-
-      &.sub-logo {
-        width: auto;
-        display: absolute;
-        
-      }
+    @media (max-width: 1220px) {
+      width: var(--media-width);
     }
-  }
+    .content-area{
+      display: flex;
+      justify-content: space-between;
+      background: var(--secondary-background-color);
+      width: 100%;
+      height: 60px;
+      border-radius: var(--border-radius);
+      box-shadow: var(--shadow-values);
 
-  nav {
-    display: inline-block;
-    position: absolute;
-    right: 0;
-    margin-right: 85px;
-    top: 7px;
-    width: auto;
-    background-color: #181818;
+      
+      @media (max-width: 655px) {
+        justify-content: center;
+      }
+      .logo {
+        display: flex;
+        padding: 4px 0; 
+        left: 5px;
 
-    a {
-      font-size: 37px;
-      color: #4d4d4e;
-      display: inline-block;
-      width: auto;
-      text-decoration: none;
-      margin-left: 15px;
-      margin-right: 15px;
+        img {
+          width: 50px;
+          height: 50px;
+          opacity: 1;
+          @media (max-width: 715px) {
+            display: none;
+          }
+        }
+        .sub-logo {
+          color: var(--font-color);    
+          font-size: 30px;   
+          margin: 0;
+          margin-top: 4px;
+          transition: all 0.5s ease;
 
-      &:hover {
-        svg {
-          color: #c2ced7;
+          @media (max-width: 965px) {
+            display: none;
+          }
+
+          &:hover{
+            color: var(--secondary-color);
+          }
+
+        }
+      }
+
+      .link-area{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px;
+        .links {
+          margin-right: 5px;
+          a {
+            font-size: 25px;
+            font-weight: bold;
+            color: var(--font-color);
+            width: auto;
+            text-decoration: none;
+            margin-left: 15px;
+            margin-right: 15px;
+            transition: all 0.5s ease;
+            
+            @media (max-width: 635px) {
+              font-size: 4vw;
+              margin: 0 1vw;
+            }
+
+            &:hover {
+                color: var(--secondary-color);
+            }
+          } 
         }
       }
     }
-    
   }
-
 }
-    
+

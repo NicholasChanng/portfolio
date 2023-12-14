@@ -1,4 +1,3 @@
-import Loader from 'react-loaders';
 import './index.scss';
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
@@ -23,7 +22,8 @@ const Contact = () =>{
       }
     return(
         <>
-        <div className= "container contact-page">
+        <section id = 'contact' className= "container contact-section">
+            <div className='page'>
             <div className="text-zone">
                 <h1>
                     Contact Me
@@ -50,9 +50,9 @@ const Contact = () =>{
                         <input type="submit" className="flat-button" value="SEND" />
                     </li>
                 </form>
+                </div>
             </div>
-        </div>
-        <Loader type="ball-pulse-sync" />
+        </section>
         </>
     )
 }

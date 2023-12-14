@@ -1,6 +1,12 @@
-$primary-color: white;
+
+
 
 @import 'animate.css';
+
+@font-face{
+  font-family: 'Raleway';
+  src: url('./assets/fonts/Raleway-VariableFont_wght.ttf') format('ttf');
+}
 
 @font-face {
   font-family: 'VT323';
@@ -24,7 +30,7 @@ $primary-color: white;
 
 input,
   textarea {
-    font-family: 'VT323', sans-serif;
+    font-family: 'Raleway', sans-serif;
   }
 
   .loader-hidden {
@@ -45,4 +51,62 @@ input,
     animation: fadeOut 1s 1s;
     animation-fill-mode: forwards;
   }
+  
+
+
+.container {
+  height: auto;
+  width:100%;
+  padding: 100px 0;
+  will-change: contents;
+  margin: 0;
+  opacity: 0;
+  transform-style: preserve-3d;
+  animation: fadeIn .75s forwards;
+  animation-delay: 1s;
+
+  div, p {
+      animation: fade linear both;
+      animation-timeline: view();
+      animation-range: var(--fade-ranges);
+    }
+
+    .page{
+      box-sizing: border-box;
+      padding: 0 30px;
+      margin: 0 auto;
+      width: var(--width);
+      height: auto;
+  
+      @media (max-width: 1220px) {
+        width: var(--media-width);
+      }
+    }
+}
+
+@keyframes fade {
+  0%{
+    opacity: 0;
+    filter: blur(5px);
+  }
+  100%{
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+:root{
+  --width: 1200px; 
+  --title-font-size: 30px;
+  --border-radius: 15px;
+  --shadow-values: 0 0 5px 2px #ffffff0e;
+  --fade-ranges: entry 0% cover 20%;
+  --media-width: 97.5vw;
+  
+  --background-color: #242526;
+  --secondary-background-color: #181818;
+  --secondary-color: #95bbd8;
+  --font-color: white;
+
+}
 
