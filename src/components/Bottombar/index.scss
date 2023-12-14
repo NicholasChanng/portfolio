@@ -5,11 +5,6 @@
   height: 120px;
   bottom: 10px;
 
-  div {
-    animation: fade linear both;
-    animation-timeline: view();
-    animation-range: entry 0% cover 10%;
-  }  
   .bottom-bar-page{
     box-sizing: border-box;
     padding: 0 30px;
@@ -17,14 +12,14 @@
     width: var(--width);
 
     @media (max-width: 1220px) {
-      width: 90vw;
+      width: 95vw;
     }
     .container-area{
       display: flex;
       justify-content: space-evenly;
       width: 100%;
       margin: 0 auto;
-      background-color: #181818;
+      background-color: var(--secondary-background-color);
       border-radius: var(--border-radius);
       box-shadow: var(--shadow-values);
       align-items: center;
@@ -36,10 +31,12 @@
           .anchor-icon{
               font-size: 35px;
               margin: 10px;
+              transition: all 0.5s ease;
+
 
               &:hover{
-                  animation: hover1 1.5s ease-in-out infinite;
-                  color: #c2ced7
+                  transform: translateY(-5px);
+                  color: var(--secondary-color)
               }
           }
         }
@@ -48,18 +45,5 @@
   }
 }
 
-@keyframes hover1 {
-    0%{
-      transform: scale(1,1);
-    }
-    
-    50%{
-      transform: scale(1.25,1.25);
-    }
-    
-    100%{
-      transform: scale(1,1);
-    }
-    }
-  
+
   

@@ -11,12 +11,12 @@
     margin-top: 20px;
 
     @media (max-width: 1220px) {
-      width: 90vw;
+      width: 95vw;
     }
     .content-area{
       display: flex;
       justify-content: space-between;
-      background: #181818;
+      background: var(--secondary-background-color);
       width: 100%;
       height: 60px;
       border-radius: var(--border-radius);
@@ -40,14 +40,20 @@
           }
         }
         .sub-logo {
-          color: white;    
+          color: var(--font-color);    
           font-size: 30px;   
           margin: 0;
           margin-top: 4px;
-          font-weight: 200; 
+          transition: all 0.5s ease;
+
           @media (max-width: 830px) {
             display: none;
           }
+
+          &:hover{
+            color: var(--secondary-color)
+          }
+
         }
       }
 
@@ -60,18 +66,21 @@
           margin-right: 5px;
           a {
             font-size: 25px;
-            color: white;
+            color: var(--font-color);
             width: auto;
             text-decoration: none;
             margin-left: 15px;
             margin-right: 15px;
+            transition: all 0.5s ease;
+            
             @media (max-width: 533px) {
               font-size: 4.5vw;
               margin: 0 1vw;
             }
 
             &:hover {
-                color: #c2ced7;
+                transform: scale(1.1,1.1);
+                color: var(--secondary-color);
             }
           } 
         }

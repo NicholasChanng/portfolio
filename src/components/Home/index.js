@@ -20,7 +20,7 @@ import python from '../../assets/images/python.png'
 import njccic from '../../assets/images/njccic.png'
 import vizAsianHate from '../../assets/images/vizAsianHate.png';
 import sass from '../../assets/images/sass.png';
-
+import portfolio from '../../assets/images/Portfolio.png'
 
 
 const Home = () =>{
@@ -29,7 +29,7 @@ const Home = () =>{
     return (
         <>
         <section className='container home-section'>
-            <div className='home-page'>
+            <div className='page home-page'>
                 <div className="flex-box">
                     <div className='home-text'>
                         <h1>
@@ -77,10 +77,10 @@ const Home = () =>{
             </div>
         </section>
 
-        <section className='container line'/>
+        <section className='line'/>
 
         <section className='container about-section'>
-            <div className='about-page'>
+            <div className='page about-page'>
                 <div className='flex-box'>
                     <div className='header'>
                         About Me
@@ -116,10 +116,10 @@ const Home = () =>{
 
         </section>
 
-        <section className='container line'/>
+        <section className='line'/>
 
         <section className='container education-section'>
-            <div className='education-page'>
+            <div className='page education-page'>
                 <div className='flex-box'>
                     <h1 className='title'>
                         Education
@@ -127,11 +127,11 @@ const Home = () =>{
                     <div className='description-area'>
                             <div className='cornell'>
                                 <span className='cornell-title'> 
-                                    <p className='title'>
+                                    <h1 className='title'>
                                     Cornell University 
-                                    </p>
+                                    </h1>
                                     <p>
-                                    Expected Graduation, May 2027
+                                    Expected Graduation, Dec 2026
                                     </p>
                                 </span>
                                 B.A Computer Science - College of Arts and Sciences
@@ -172,9 +172,9 @@ const Home = () =>{
                             </div>
                             <div className='brhs'>
                                 <span className='brhs-title'>
-                                    <p className='title'>
+                                    <h1 className='title'>
                                     Bridgewater-Raritan High School
-                                    </p>
+                                    </h1>
                                     <p>
                                     Graduated, June 2023
                                     </p>
@@ -203,13 +203,13 @@ const Home = () =>{
 
         </section>
         
-        <section className='container line'/>
+        <section className='line'/>
 
         <section className='container experience-section'>
-            <div className="experience-page">
+            <div className="page experience-page">
                 <div className='flex-box'>
                     <h1 className='title'>
-                        Portfolio
+                        Experience
                     </h1>
                     <p className='title-sub'>
                         Here is my work experience!
@@ -226,9 +226,9 @@ const Home = () =>{
                     imagetitle = 'codology'
                     to = 'https://www.codology.org/'
                     languageID = 'codology-lang'
-                    lang1 = ""
-                    lang2 = ""
-                    lang3 = ""
+                    lang1 = "JavaScript"
+                    lang2 = "HTML"
+                    lang3 = "CSS"
                     lang4 = ""
                     lang5 = ""
                     lang6 = ""
@@ -258,34 +258,59 @@ const Home = () =>{
                     lang6 = ""
                     lang7 = ""
                     />
-
-                    <p className='title-sub'>
-                        Here are my projects!
-                    </p>
-                    
-                    
-                    <Experience1 
-                    title = "vizAsianHate"
-                    position = ""
-                    description = ""
-                    imagesrc = {vizAsianHate}
-                    imagetitle = 'vizAsianhate'
-                    to = 'https://stop-aapi-hate-dashboard.vercel.app/'
-                    languageID = 'viz-lang'
-                    lang1 = "React"
-                    lang2 = "JavaScript"
-                    lang3 = "Next.js"
-                    lang4 = "Chakra-UI"
-                    lang5 = "Mapbox"
-                    lang6 = "Recharts"
-                    lang7 = "Vercel"
-                    />
-
-                    
                 </div>
             </div>
         </section>
 
+        <section className='line'/>
+
+        <section className='container project-section'>
+            <div className='page project-page'>
+                <div className='flex-box'>
+                    <h1 className='title'> 
+                        Projects
+                    </h1>
+                    <p className='title-sub'>
+                            Here are my projects!
+                    </p>
+                    <div className='project-area'>
+                        <Project 
+                        title = "Peronsal Porftolio Website"
+                        imagesrc = {portfolio}
+                        imagetitle = 'portfolio'
+                        to = ''
+                        languageID = 'portfolio-lang'
+                        lang1 = "React"
+                        lang2 = "JavaScript"
+                        lang3 = "HTML"
+                        lang4 = "Sass"
+                        lang5 = "Email.js"
+                        lang6 = ""
+                        lang7 = ""
+                        lang8 = ""
+                        />
+                        <Project 
+                        title = "vizAsianHate"
+                        imagesrc = {vizAsianHate}
+                        imagetitle = 'vizAsianhate'
+                        to = 'https://stop-aapi-hate-dashboard.vercel.app/'
+                        languageID = 'viz-lang'
+                        lang1 = "React"
+                        lang2 = "JavaScript"
+                        lang3 = "Next.js"
+                        lang4 = "Chakra-UI"
+                        lang5 = "Mapbox"
+                        lang6 = "Recharts"
+                        lang7 = "Vercel"
+                        lang8 = ""
+                        />
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+                   
 
         <Loader type="ball-pulse-sync" />
         </>
@@ -399,6 +424,53 @@ const Experience2 = (prop) =>{
     );
 }
 
+const Project = (prop) =>{
+    //title, position, description, languages, imagesrc, imagetitle, to
 
+    // let code = Languages(prop.languages);
+    // document.getElementById("language-id").innerHTML = code;
+
+    return(
+        <div className='project-content'>
+            <div className='description-area'>
+                <Link to = {prop.to} target = "_blank" rel="noreferrer">
+                  <img src = {prop.imagesrc} className = 'image-prop' alt = {prop.imagetitle}/>
+                </Link>
+                <h1 className='title-text'>
+                    {prop.title}
+                </h1>
+                <div id = {prop.languageID} className='lang-area'>
+                    <div className='lang'>
+                        {prop.lang1}
+                    </div>
+                    <div className='lang'>
+                        {prop.lang2}
+                    </div>
+                    <div className='lang'>
+                        {prop.lang3}
+                    </div>
+                    <div className='lang'>
+                        {prop.lang4}
+                    </div>
+                    <div className='lang'>
+                        {prop.lang5}
+                    </div>  
+                    <div className='lang'>
+                        {prop.lang6}
+                    </div>  
+                    <div className='lang'>
+                        {prop.lang7}
+                    </div>   
+                    <div className='lang'>
+                        {prop.lang8}
+                    </div>                                            
+                </div>
+            </div>
+            <div className='image-area' id='experience1'>
+
+            </div>
+        </div>
+    );
+}
 
 export default Home;

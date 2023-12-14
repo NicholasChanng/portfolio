@@ -23,7 +23,8 @@ const Contact = () =>{
       }
     return(
         <>
-        <div className= "container contact-page">
+        <section className= "container contact-section">
+            <div className='page'>
             <div className="text-zone">
                 <h1>
                     Contact Me
@@ -50,8 +51,9 @@ const Contact = () =>{
                         <input type="submit" className="flat-button" value="SEND" />
                     </li>
                 </form>
+                </div>
             </div>
-        </div>
+        </section>
         <Loader type="ball-pulse-sync" />
         </>
     )
