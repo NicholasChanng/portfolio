@@ -18,8 +18,10 @@ const Education = () =>{
                                 Expected Graduation, Dec 2026
                                 </p>
                             </span>
+                            <span>
                             B.A Computer Science - College of Arts and Sciences
-                            <br/> <br/>
+                            </span>
+                            <br/>
                             Relevant Coursework: 
                             <li>
                                 Data Structures and Functional Programming (OCaml)
@@ -63,7 +65,10 @@ const Education = () =>{
                                 Graduated, June 2023
                                 </p>
                             </span>
-                        GPA - 4.6805 (Top 5%) <br/> <br/>
+                        <span>
+                        GPA - 4.6805 (Top 5%) 
+                        </span>
+                        <br/>
                         Activities and Leadership:
                         <li>
                             President of Esports Club

@@ -20,8 +20,11 @@
           font-size: 25px;
           border-radius: var(--border-radius);
           padding: 0 20px;
-
-
+          @media (max-width: 600px) {
+            p{
+              font-size: var(--responsive-font-size-small);
+            }
+          }
         }
         .image-area{
           display: flex;
@@ -33,13 +36,18 @@
 
           h2{
             font-size: var(--title-font-size);
+            margin-left: 5px;
+            @media (max-width: 600px) {
+                font-size: var(--responsive-font-size-small);
+            }
           }
 
           .vertical-bar{
-            height: 70px;
+            height: 5vh;
             width: 0.1px;
             border: 1px solid white;
             opacity: 0.5;
+            margin: 0 5px;
             background-color: white;
             border-radius: var(--border-radius);
           }
