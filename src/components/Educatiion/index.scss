@@ -28,14 +28,25 @@
             .cornell-title{
               display: flex;
               justify-content: space-between;
-              @media (max-width: 550px) {
+              @media (max-width: 600px) {
                flex-direction: column; 
+               font-size: var(--responsive-font-size-small);
               }
               p{
                 margin: 0 0 5px;
               }
               .title{
                 font-size: var(--title-font-size);
+              }
+            }
+            @media (max-width: 600px) {
+              li{
+                font-size: var(--responsive-font-size-small);
+              }
+            }
+            @media (max-width: 600px) {
+              span{
+                font-size: var(--responsive-font-size-small);
               }
             }
           }
@@ -50,14 +61,26 @@
             .brhs-title{
               display: flex;
               justify-content: space-between;
-              @media (max-width: 550px) {
+              @media (max-width: 600px) {
                 flex-direction: column; 
+                font-size: var(--responsive-font-size-small);
+
                }
               p{
                 margin: 0 0 5px;
               }
               .title{
                 font-size: var(--title-font-size);
+              }
+            }
+            @media (max-width: 600px) {
+              li{
+                font-size: var(--responsive-font-size-small);
+              }
+            }
+            @media (max-width: 600px) {
+              span{
+                font-size: var(--responsive-font-size-small);
               }
             }
           }

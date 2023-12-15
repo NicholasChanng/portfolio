@@ -5,7 +5,7 @@ html {
 
 body {
   margin: 0;
-  font: 300 11px/1.4 'Raleway', sans-serif;
+  font: 300 16px/1.4 'Raleway', sans-serif;
   font-weight: 400;
   color: var(--font-color);
   background: var(--background-color) ;

@@ -20,7 +20,7 @@
           margin-bottom: 10px;
 
           @media (max-width: 1220px) {
-            font-size: 20px;
+            font-size: var(--responsive-font-size-small);
           }
 
         }

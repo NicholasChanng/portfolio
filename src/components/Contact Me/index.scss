@@ -7,11 +7,16 @@
 
         h1{
             margin: 0px;
-
+            @media (max-width: 600px) {
+                  font-size: var(--responsive-font-size-large);
+              }
         }
 
         p{
             margin-top: 0px;
+            @media (max-width: 600px) {
+                  font-size: var(--responsive-font-size-small);
+              }
         }
 
         li{
