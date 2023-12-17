@@ -35,13 +35,13 @@ const Contact = () =>{
                 </p>
                 <form ref = {form} onSubmit={sendEmail}>
                     <li className="half">
-                        <input type = "text" name = "name" placeholder="Name" required/>
+                        <input className = 'input' type = "text" name = "name" placeholder="Name" required/>
                     </li>
                     <li className="half">
-                        <input type = "email" name = "email" placeholder="Email" required/>
+                        <input className = 'input' type = "email" name = "email" placeholder="Email" required/>
                     </li>
                     <li>
-                        <input type = "text" name= "subject" placeholder="Subject" required/>
+                        <input className = 'input' type = "text" name= "subject" placeholder="Subject" required/>
                     </li>
                     <li>
                         <textarea name="message" placeholder="Message" required/>
