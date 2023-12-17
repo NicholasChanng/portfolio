@@ -1,69 +1,69 @@
-.about-section{
-  .about-page{
-    .flex-box{
+.about-section {
+  .about-page {
+    .flex-box {
       display: flex;
       flex-direction: column;
       @media (max-width: 1220px) {
         align-items: center;
         width: 100%;
       }
-      .header{
+      .header {
         font-size: var(--title-font-size);
         margin: 0 0 10px;
       }
-      .content-area{
+      .content-area {
         width: 100%;
         background-color: var(--secondary-background-color);
         border-radius: var(--border-radius);
         box-shadow: var(--shadow-values);
-        .description-text{
+        .description-text {
           font-size: 25px;
           border-radius: var(--border-radius);
           padding: 0 20px;
           @media (max-width: 600px) {
-            p{
+            p {
               font-size: var(--responsive-font-size-small);
             }
           }
         }
-        .image-area{
+        .image-area {
           display: flex;
           flex-direction: row;
           border-radius: var(--border-radius);
           align-items: center;
           justify-content: space-evenly;
           padding: 0 10px;
+          margin-bottom: 20px;
 
-          h2{
+          h2 {
             font-size: var(--title-font-size);
             margin-left: 5px;
             @media (max-width: 600px) {
-                font-size: var(--responsive-font-size-small);
+              font-size: var(--responsive-font-size-small);
             }
           }
 
-          .vertical-bar{
+          .vertical-bar {
             height: 5vh;
             width: 0.1px;
             border: 1px solid white;
             opacity: 0.5;
-            margin: 0 5px;
+            margin: 0 15px;
             background-color: white;
             border-radius: var(--border-radius);
           }
 
-          .skills-images{
+          .skills-images {
             display: flex;
             justify-content: space-between;
             // animation: slide 5s linear infinite;
-
 
             .skill {
               margin: 20px 0;
               max-width: 100px;
               max-height: 100px;
               height: auto;
-              width:10%;
+              width: 10%;
             }
           }
         }

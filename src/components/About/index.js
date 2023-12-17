@@ -1,11 +1,12 @@
 import './index.scss'
-import html from '../../assets/images/logo1.png'
-import css from '../../assets/images/logo2.png';
-import javascript from '../../assets/images/logo3.png';
-import react from '../../assets/images/logo192.png';
-import java from '../../assets/images/java.png'
-import python from '../../assets/images/python.png'
-import sass from '../../assets/images/sass.png';
+import Skills from './Skills';
+// import html from '../../assets/images/logo1.png'
+// import css from '../../assets/images/logo2.png';
+// import javascript from '../../assets/images/logo3.png';
+// import react from '../../assets/images/logo192.png';
+// import java from '../../assets/images/java.png'
+// import python from '../../assets/images/python.png'
+// import sass from '../../assets/images/sass.png';
 
 const About = () =>{
     return(
@@ -30,7 +31,7 @@ const About = () =>{
                             </h2>
                         </div>
                         <div className='vertical-bar'/>
-                        <div className='skills-images'>
+                        {/* <div className='skills-images'>
                             <img className = 'skill' src = {javascript} alt = 'skill'/>
                             <img className = 'skill' src = {html} alt = 'skill'/>
                             <img className = 'skill' src = {css} alt = 'skill'/>
@@ -38,7 +39,8 @@ const About = () =>{
                             <img className = 'skill' src = {react} alt = 'skill'/>
                             <img className = 'skill' src = {java} alt = 'skill'/>
                             <img className = 'skill' src = {python} alt = 'skill'/>
-                        </div>
+                        </div> */}
+                        <Skills/>
                     </div>
                 </div>
             </div>

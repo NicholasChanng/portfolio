@@ -1,9 +1,6 @@
-
-
-
 @import 'animate.css';
 
-@font-face{
+@font-face {
   font-family: 'Raleway';
   src: url('./assets/fonts/Raleway-VariableFont_wght.ttf') format('ttf');
 }
@@ -20,95 +17,105 @@
 
 @font-face {
   font-family: 'La Belle Aurore';
-  src: url('./assets/fonts/LaBelleAurore.woff2') format('woff2'),
+  src: url('./assets/fonts/LaBelleAurore.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'Coolvetica';
-  src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2'),
+  src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2');
 }
 
 input,
-  textarea {
-    font-family: 'Raleway', sans-serif;
-  }
+textarea {
+  font-family: 'Raleway', sans-serif;
+}
 
-  .loader-hidden {
-    display: none;
-  }
-  
-  .loader-active {
-    display: block;
-    position: sticky;
-    left: 0;
-    right: 0;
-    margin: auto;
-    top: 0;
-    bottom: 50%;
-    width: 100px;
-    height: 50px;
-    font-size: 30px;
-    animation: fadeOut 1s 1s;
-    animation-fill-mode: forwards;
-  }
-  
+.loader-hidden {
+  display: none;
+}
 
+.loader-active {
+  display: block;
+  position: sticky;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  bottom: 50%;
+  width: 100px;
+  height: 50px;
+  font-size: 30px;
+  animation: fadeOut 1s 1s;
+  animation-fill-mode: forwards;
+}
 
 .container {
   height: auto;
-  width:100%;
+  width: 100%;
   padding: 100px 0;
   will-change: contents;
   margin: 0;
   opacity: 0;
   transform-style: preserve-3d;
-  animation: fadeIn .75s forwards;
+  animation: fadeIn 0.75s forwards;
   animation-delay: 1s;
 
-  div, p {
-      animation: fade linear both;
-      animation-timeline: view();
-      animation-range: var(--fade-ranges);
-    }
+  div,
+  p {
+    animation: fade linear both;
+    animation-timeline: view();
+    animation-range: var(--fade-ranges);
+  }
 
-    .page{
-      box-sizing: border-box;
-      padding: 0 30px;
-      margin: 0 auto;
-      width: var(--width);
-      height: auto;
-  
-      @media (max-width: 1220px) {
-        width: var(--media-width);
-      }
+  .page {
+    box-sizing: border-box;
+    padding: 0 30px;
+    margin: 0 auto;
+    width: var(--width);
+    height: auto;
+
+    @media (max-width: 1220px) {
+      width: var(--media-width);
     }
+  }
 }
 
 @keyframes fade {
-  0%{
+  0% {
     opacity: 0;
     filter: blur(5px);
   }
-  100%{
+  100% {
     opacity: 1;
     filter: blur(0);
   }
 }
 
-:root{
-  --width: 1200px; 
+:root {
+  --width: 1200px;
   --title-font-size: 30px;
   --responsive-font-size-small: 20px;
   --responsive-font-size-large: 30px;
   --border-radius: 15px;
-  --shadow-values: 0 0 5px 2px #ffffff0e;
+  --shadow-values: 0 0px 5px 3px #000000da;
   --fade-ranges: entry 0% cover 20%;
   --media-width: 97.5vw;
-  
+
+  //custom
+  // --background-color: #212529;
+  // --secondary-background-color: #495057;
+  // --secondary-color: #95bbd8;
+  // --font-color: white;
+
+  //black
   --background-color: #242526;
   --secondary-background-color: #181818;
   --secondary-color: #95bbd8;
   --font-color: white;
 
+  //white
+  // --background-color: #white;
+  // --secondary-background-color: grey;
+  // --secondary-color: #95bbd8;
+  // --font-color: black;
 }
-

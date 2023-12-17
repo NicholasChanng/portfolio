@@ -1,0 +1,48 @@
+.skills-list {
+  position: relative;
+  right: 0;
+  list-style: none;
+  padding: 0px;
+}
+
+li img {
+  height: min(50px, 10vw);
+  width: auto;
+}
+
+.scroller {
+  max-width: 600px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  opacity: 0;
+}
+
+.scroller-inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.scroller {
+  overflow: hidden;
+  -webkit-mask: linear-gradient(
+    90deg,
+    transparent,
+    white 20%,
+    white 80%,
+    transparent
+  );
+  mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+}
+
+.scroller .scroller-inner {
+  width: fit-content;
+  flex-wrap: nowrap;
+  animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+  to {
+    transform: translate(calc(-50% - 15px));
+  }
+}

@@ -8,11 +8,10 @@ body {
   font: 300 16px/1.4 'Raleway', sans-serif;
   font-weight: 400;
   color: var(--font-color);
-  background: var(--background-color) ;
+  background: var(--background-color);
   overflow: hidden;
   display: block;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-y: visible;
-} 
-
+}
