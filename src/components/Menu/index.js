@@ -56,7 +56,7 @@ const Menu = () => {
           href="/contact"/> */}
           <DropdownItem
             img={faLinkedin}
-            text={'Linkin'}
+            text={'LinkedIn'}
             href="https://www.linkedin.com/in/nicholaschanng/"
             target="_blank"
             rel="noreferrer"
