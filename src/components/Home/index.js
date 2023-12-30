@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFolderOpen } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import About from '../About'
-import Education from '../Educatiion'
+import Education from '../Education'
 import Experience from '../Experience'
 import Contact from '../Contact Me'
 
