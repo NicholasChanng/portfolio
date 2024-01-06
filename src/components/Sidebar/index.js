@@ -1,6 +1,7 @@
 import './index.scss'
 import LogoS from '../../assets/images/FlamingLogo.png'
 import Menu from '../Menu'
+import Hamburger from './Hamburger'
 
 const Sidebar = () => (
   <div className="nav-bar">
@@ -24,6 +25,7 @@ const Sidebar = () => (
 
             <a href="#contact">Contact</a>
           </nav>
+          <Hamburger />
           <Menu />
         </div>
       </div>
