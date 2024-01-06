@@ -1,5 +1,4 @@
 import './index.scss'
-import React, { useState, useEffect, useRef } from 'react'
 
 export default function Hamburger() {
   // const [open, setOpen] = useState(false)

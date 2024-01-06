@@ -71,11 +71,12 @@
   box-shadow: var(--shadow-values);
   width: calc(100% - 60px);
   height: auto;
-  min-height: 100px;
+  min-height: 80px;
   background-color: var(--secondary-background-color);
   opacity: 0;
   border-bottom: 2px solid black;
   z-index: -1;
+  transform: translateY(-300%);
   @media (min-width: 701px) {
     transform: translateY(-300%);
   }
@@ -131,8 +132,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  // transform: translateY(0%);
+  transform: translateY(0%);
   opacity: 1;
+  @media (min-width: 701px) {
+    transform: translateY(-300%);
+  }
 }
 
 :root {
