@@ -73,7 +73,7 @@ const Experience = () => {
                 title="SKY Taekwondo Website"
                 imagesrc={sky}
                 imagetitle="sky"
-                to="https://skytkd.netlify.app/"
+                to="https://skytkd.us/"
                 languageID="sky-lang"
                 lang1="React"
                 lang2="JavaScript"
@@ -203,7 +203,7 @@ const Project = (prop) => {
   return (
     <div className="project-content">
       <div className="description-area">
-        <div>
+        <div className="project-flex">
           <a href={prop.to} target="_blank" rel="noreferrer">
             <img
               src={prop.imagesrc}
@@ -211,7 +211,11 @@ const Project = (prop) => {
               alt={prop.imagetitle}
             />
           </a>
-          <h1 className="title-text">{prop.title}</h1>
+          <h1 className="underline title-text">
+            <a href={prop.to} target="_blank" rel="noreferrer">
+              {prop.title}
+            </a>
+          </h1>
           <div id={prop.languageID} className="lang-area">
             <div className="lang">{prop.lang1}</div>
             <div className="lang">{prop.lang2}</div>
