@@ -166,7 +166,7 @@
           display: flex;
           height: auto;
           margin: 10px;
-          padding-top: 10px;
+          padding: 10px 0;
           border-radius: var(--border-radius);
           box-shadow: var(--shadow-values);
           background-color: var(--secondary-background-color);
@@ -204,7 +204,7 @@
             .title-text {
               font-size: 30px;
               margin: 0;
-              margin: 25px 0;
+              margin-top: 25px;
               padding: 0 10px;
               width: fit-content;
               text-align: center;
