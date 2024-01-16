@@ -83,7 +83,7 @@ const Experience = () => {
                 lang6=""
                 lang7=""
                 lang8=""
-                github="https://github.com/NicholasChanng/portfolio"
+                github="https://github.com/NicholasChanng/sky-taekwondo-website"
               />
               <Project
                 title="Portfolio Website"
