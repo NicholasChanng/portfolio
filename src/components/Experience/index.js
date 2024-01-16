@@ -4,6 +4,7 @@ import portfolio from '../../assets/images/Portfolio.png'
 import njccic from '../../assets/images/njccic.png'
 import vizAsianHate from '../../assets/images/vizAsianHate.png'
 import codology from '../../assets/images/codology.png'
+import sky from '../../assets/images/SKY.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
@@ -68,6 +69,22 @@ const Experience = () => {
           <div className="flex-box">
             <h1 className="title">Projects</h1>
             <div className="project-area">
+              <Project
+                title="SKY Taekwondo Website"
+                imagesrc={sky}
+                imagetitle="sky"
+                to="https://skytkd.netlify.app/"
+                languageID="sky-lang"
+                lang1="React"
+                lang2="JavaScript"
+                lang3="HTML"
+                lang4="Sass"
+                lang5="3CX"
+                lang6=""
+                lang7=""
+                lang8=""
+                github="https://github.com/NicholasChanng/portfolio"
+              />
               <Project
                 title="Portfolio Website"
                 imagesrc={portfolio}
@@ -187,13 +204,13 @@ const Project = (prop) => {
     <div className="project-content">
       <div className="description-area">
         <div>
-          <Link to={prop.to} target="_blank" rel="noreferrer">
+          <a href={prop.to} target="_blank" rel="noreferrer">
             <img
               src={prop.imagesrc}
               className="image-prop"
               alt={prop.imagetitle}
             />
-          </Link>
+          </a>
           <h1 className="title-text">{prop.title}</h1>
           <div id={prop.languageID} className="lang-area">
             <div className="lang">{prop.lang1}</div>
