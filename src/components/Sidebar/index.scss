@@ -119,3 +119,13 @@
     width: 100%;
   }
 }
+
+#show-nav {
+  transition: all 0.5s;
+  transform: translateY(0);
+}
+
+#hidden-nav {
+  transition: all 1.5s ease;
+  transform: translateY(-250px);
+}

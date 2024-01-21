@@ -17,6 +17,21 @@ import LogoS from '../../assets/images/nick2.jpg'
 import wave from '../../assets/images/wave.png'
 
 const Home = () => {
+  //   const observer = new IntersectionObserver((entries) => {
+  //     entries.forEach((entry) => {
+  //       console.log(entry)
+  //       if (entry.isIntersecting) {
+  //         entry.target.classList.add('show')
+  //       } else {
+  //         entry.target.classList.remove('show')
+  //       }
+  //     })
+  //   })
+
+  //   const hiddenElements = document.querySelectorAll('.hidden')
+  //   hiddenElements.forEach((e1) => {
+  //     observer.observe(e1)
+  //   })
   return (
     <>
       <section id="home" className="container home-section">

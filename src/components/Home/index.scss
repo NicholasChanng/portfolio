@@ -165,9 +165,7 @@
   opacity: 0.5;
   background-color: white;
   border-radius: var(--border-radius);
-  animation: fade linear both;
-  animation-timeline: view();
-  animation-range: var(--fade-ranges);
+
   will-change: contents;
   opacity: 0;
   transform-style: preserve-3d;

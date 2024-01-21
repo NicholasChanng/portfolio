@@ -10,9 +10,6 @@
       .title {
         font-size: var(--title-font-size);
         margin: 0 0 10px;
-        animation: fade linear both;
-        animation-timeline: view();
-        animation-range: var(--fade-ranges);
       }
       .title-sub {
         font-size: 25px;
@@ -33,9 +30,6 @@
         border-radius: var(--border-radius);
         box-shadow: var(--shadow-values);
         background-color: var(--secondary-background-color);
-        animation: fade linear both;
-        animation-timeline: view();
-        animation-range: var(--fade-ranges);
 
         @media (max-width: 1220px) {
           flex-direction: column;
@@ -147,9 +141,6 @@
       .title {
         font-size: var(--title-font-size);
         margin: 0 0 10px;
-        animation: fade linear both;
-        animation-timeline: view();
-        animation-range: var(--fade-ranges);
       }
       .project-area {
         display: grid;
@@ -170,9 +161,6 @@
           border-radius: var(--border-radius);
           box-shadow: var(--shadow-values);
           background-color: var(--secondary-background-color);
-          animation: fade linear both;
-          animation-timeline: view();
-          animation-range: var(--fade-ranges);
 
           .description-area {
             display: flex;
