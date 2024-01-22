@@ -15,26 +15,13 @@ import './index.scss'
 import Loader from 'react-loaders'
 import LogoS from '../../assets/images/nick2.jpg'
 import wave from '../../assets/images/wave.png'
+import { React } from 'react'
+import StyleLine from '../StyleLine'
 
 const Home = () => {
-  //   const observer = new IntersectionObserver((entries) => {
-  //     entries.forEach((entry) => {
-  //       console.log(entry)
-  //       if (entry.isIntersecting) {
-  //         entry.target.classList.add('show')
-  //       } else {
-  //         entry.target.classList.remove('show')
-  //       }
-  //     })
-  //   })
-
-  //   const hiddenElements = document.querySelectorAll('.hidden')
-  //   hiddenElements.forEach((e1) => {
-  //     observer.observe(e1)
-  //   })
   return (
     <>
-      <section id="home" className="container home-section">
+      <section data-aos="fade-up" id="home" className="section home-section">
         <div className="page home-page">
           <div className="flex-box">
             <div className="home-text">
@@ -105,19 +92,19 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="line" />
+      <StyleLine />
 
       <About />
 
-      <section className="line" />
+      <StyleLine />
 
       <Education />
 
-      <section className="line" />
+      <StyleLine />
 
       <Experience />
 
-      <section className="line" />
+      <StyleLine />
 
       <Contact />
 

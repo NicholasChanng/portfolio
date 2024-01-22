@@ -11,10 +11,8 @@ const Sidebar = () => {
 
   window.addEventListener('scroll', () => {
     if (lastScrollY < window.scrollY) {
-      // console.log('we are going down')
       if (navbar) setNavbar(!navbar)
     } else {
-      // console.log('we are going up')
       if (!navbar) setNavbar(!navbar)
     }
 

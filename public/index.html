@@ -11,10 +11,10 @@
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/FlamingLogo.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Nicholas Channg | Portfolio</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <script
       type="text/javascript"
@@ -24,6 +24,13 @@
       ;(function () {
         emailjs.init(kN2GlYw0W2n_pNOHf)
       })()
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 900,
+        delay: 200,
+      })
     </script>
   </body>
 </html>

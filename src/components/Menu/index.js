@@ -41,7 +41,10 @@ const Menu = () => {
       >
         <img src={LogoS} alt="logo" />
       </div>
-      <div className={`dropdown-menu ${open ? 'active' : 'inactive'}`}>
+      <div
+        data-aos="fade-up"
+        className={`dropdown-menu ${open ? 'active' : 'inactive'}`}
+      >
         <h3>
           Nicholas Channg
           <br />

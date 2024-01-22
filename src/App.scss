@@ -62,7 +62,7 @@ textarea {
   }
 }
 
-.container {
+.section {
   height: auto;
   width: 100%;
   padding: 100px 0;
@@ -70,8 +70,8 @@ textarea {
   margin: 0;
   opacity: 0;
   transform-style: preserve-3d;
-  animation: fadeIn 0.75s forwards;
-  animation-delay: 1s;
+  // animation: fadeIn 0.75s forwards;
+  // animation-delay: 1s;
 
   .page {
     box-sizing: border-box;

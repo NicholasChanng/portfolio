@@ -7,14 +7,21 @@ import codology from '../../assets/images/codology.png'
 import sky from '../../assets/images/SKY.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import StyleLine from '../StyleLine'
 
 const Experience = () => {
   return (
     <>
-      <section id="portfolio" className="container experience-section">
+      <section
+        data-aos="fade-up"
+        id="portfolio"
+        className="section experience-section"
+      >
         <div className="page experience-page">
           <div className="flex-box">
-            <h1 className="title">Experience</h1>
+            <h1 data-aos="fade-up" className="title">
+              Experience
+            </h1>
             <Experience1
               title="Codology"
               position="Frontend Developer - Software Engineer Intern"
@@ -62,12 +69,14 @@ const Experience = () => {
         </div>
       </section>
 
-      <section className="line" />
+      <StyleLine />
 
-      <section className="container project-section">
+      <section data-aos="fade-up" className="section project-section">
         <div className="page project-page">
           <div className="flex-box">
-            <h1 className="title">Projects</h1>
+            <h1 data-aos="fade-up" className="title">
+              Projects
+            </h1>
             <div className="project-area">
               <Project
                 title="SKY Taekwondo Website"
@@ -132,7 +141,7 @@ const Experience1 = (prop) => {
   // document.getElementById("language-id").innerHTML = code;
 
   return (
-    <div className="job-content">
+    <div data-aos="fade-up" className="job-content">
       <div className="description-area">
         <h1 className="title-text">{prop.title}</h1>
         <p className="position-text">{prop.position}</p>
@@ -166,7 +175,7 @@ const Experience2 = (prop) => {
   //title, position, description, imagesrc, imagetitle, to, languageID, langs, github
 
   return (
-    <div className="job-content">
+    <div data-aos="fade-up" className="job-content">
       <div className="image-area">
         <Link to={prop.to} target="_blank" rel="noreferrer">
           <img
@@ -201,7 +210,7 @@ const Project = (prop) => {
   // let codeArr = prop.languages.split();
 
   return (
-    <div className="project-content">
+    <div data-aos="fade-up" className="project-content">
       <div className="description-area">
         <div className="project-flex">
           <a href={prop.to} target="_blank" rel="noreferrer">
