@@ -167,7 +167,6 @@ const Project = (prop) => {
   //title, position, description, imagesrc, imagetitle, to, languageID, langs, github
 
   let langlist = prop.langlist.split(' ')
-  console.log(langlist)
 
   return (
     <div data-aos="fade-up" className="project-content">
