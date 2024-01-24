@@ -34,13 +34,7 @@ const Experience = () => {
               imagetitle="codology"
               to="https://www.codology.org/"
               languageID="codology-lang"
-              lang1="JavaScript"
-              lang2="HTML"
-              lang3="CSS"
-              lang4=""
-              lang5=""
-              lang6=""
-              lang7=""
+              langlist="JavaScript HTML CSs"
             />
 
             <Experience2
@@ -57,13 +51,7 @@ const Experience = () => {
               imagetitle="njccic"
               to="https://www.cyber.nj.gov/"
               languageID="njccic-lang"
-              lang1=""
-              lang2=""
-              lang3=""
-              lang4=""
-              lang5=""
-              lang6=""
-              lang7=""
+              langlist=""
             />
           </div>
         </div>
@@ -84,14 +72,7 @@ const Experience = () => {
                 imagetitle="sky"
                 to="https://skytkd.us/"
                 languageID="sky-lang"
-                lang1="React"
-                lang2="JavaScript"
-                lang3="HTML"
-                lang4="Sass"
-                lang5="3CX"
-                lang6=""
-                lang7=""
-                lang8=""
+                langlist="React JavaScript HTML Sass 3cx"
                 github="https://github.com/NicholasChanng/sky-taekwondo-website"
               />
               <Project
@@ -100,14 +81,7 @@ const Experience = () => {
                 imagetitle="portfolio"
                 to=""
                 languageID="portfolio-lang"
-                lang1="React"
-                lang2="JavaScript"
-                lang3="HTML"
-                lang4="Sass"
-                lang5="Email.js"
-                lang6=""
-                lang7=""
-                lang8=""
+                langlist="React JavaScript HTML Sass Email.js"
                 github="https://github.com/NicholasChanng/portfolio"
               />
               <Project
@@ -116,14 +90,7 @@ const Experience = () => {
                 imagetitle="vizAsianhate"
                 to="https://stop-aapi-hate-dashboard.vercel.app/"
                 languageID="viz-lang"
-                lang1="React"
-                lang2="JavaScript"
-                lang3="Next.js"
-                lang4="Chakra-UI"
-                lang5="Mapbox"
-                lang6="Recharts"
-                lang7="Vercel"
-                lang8=""
+                langlist="React JavaScript Next.js Chakra-UI Mapbox Recharts Vercel"
                 github="https://github.com/rolandyangg/vizAsianHate"
               />
             </div>
@@ -137,8 +104,7 @@ const Experience = () => {
 const Experience1 = (prop) => {
   //title, position, description, imagesrc, imagetitle, to, languageID, langs, github
 
-  // let code = Languages(prop.languages);
-  // document.getElementById("language-id").innerHTML = code;
+  let langlist = prop.langlist.split(' ')
 
   return (
     <div data-aos="fade-up" className="job-content">
@@ -148,14 +114,9 @@ const Experience1 = (prop) => {
         <p className="meta-data"> {prop.metaData}</p>
         <p className="description-text">{prop.description}</p>
         <div id={prop.languageID} className="lang-area">
-          <div className="lang">{prop.lang1}</div>
-          <div className="lang">{prop.lang2}</div>
-          <div className="lang">{prop.lang3}</div>
-          <div className="lang">{prop.lang4}</div>
-          <div className="lang">{prop.lang5}</div>
-          <div className="lang">{prop.lang6}</div>
-          <div className="lang">{prop.lang7}</div>
-          <div className="lang">{prop.lang8}</div>
+          {langlist.map((lang) => {
+            return <div className="lang">{lang}</div>
+          })}
         </div>
       </div>
       <div className="image-area" id="experience1">
@@ -174,6 +135,8 @@ const Experience1 = (prop) => {
 const Experience2 = (prop) => {
   //title, position, description, imagesrc, imagetitle, to, languageID, langs, github
 
+  let langlist = prop.langlist.split(' ')
+
   return (
     <div data-aos="fade-up" className="job-content">
       <div className="image-area">
@@ -191,13 +154,9 @@ const Experience2 = (prop) => {
         <p className="meta-data"> {prop.metaData}</p>
         <p className="description-text">{prop.description}</p>
         <div className="language-area">
-          <div className="lang">{prop.lang1}</div>
-          <div className="lang">{prop.lang2}</div>
-          <div className="lang">{prop.lang3}</div>
-          <div className="lang">{prop.lang4}</div>
-          <div className="lang">{prop.lang5}</div>
-          <div className="lang">{prop.lang6}</div>
-          <div className="lang">{prop.lang7}</div>
+          {langlist.map((lang) => {
+            return <div className="lang">{lang}</div>
+          })}
         </div>
       </div>
     </div>
@@ -207,7 +166,8 @@ const Experience2 = (prop) => {
 const Project = (prop) => {
   //title, position, description, imagesrc, imagetitle, to, languageID, langs, github
 
-  // let codeArr = prop.languages.split();
+  let langlist = prop.langlist.split(' ')
+  console.log(langlist)
 
   return (
     <div data-aos="fade-up" className="project-content">
@@ -226,14 +186,9 @@ const Project = (prop) => {
             </a>
           </h1>
           <div id={prop.languageID} className="lang-area">
-            <div className="lang">{prop.lang1}</div>
-            <div className="lang">{prop.lang2}</div>
-            <div className="lang">{prop.lang3}</div>
-            <div className="lang">{prop.lang4}</div>
-            <div className="lang">{prop.lang5}</div>
-            <div className="lang">{prop.lang6}</div>
-            <div className="lang">{prop.lang7}</div>
-            <div className="lang">{prop.lang8}</div>
+            {langlist.map((lang) => {
+              return <div className="lang">{lang}</div>
+            })}
           </div>
         </div>
         <div>

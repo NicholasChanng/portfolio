@@ -72,7 +72,7 @@
           }
 
           .lang-area {
-            display: none;
+            display: flex;
             width: auto;
             height: auto;
             flex-wrap: wrap;
@@ -199,7 +199,7 @@
             }
 
             .lang-area {
-              display: none;
+              display: flex;
               width: auto;
               height: auto;
               flex-wrap: wrap;
@@ -265,58 +265,6 @@
 
 .title-text > a {
   margin: 0;
-}
-
-#codology-lang {
-  display: flex;
-  :nth-child(4) {
-    display: none;
-  }
-  :nth-child(5) {
-    display: none;
-  }
-  :nth-child(6) {
-    display: none;
-  }
-  :nth-child(7) {
-    display: none;
-  }
-  :nth-child(8) {
-    display: none;
-  }
-}
-
-#sky-lang {
-  display: flex;
-  :nth-child(6) {
-    display: none;
-  }
-  :nth-child(7) {
-    display: none;
-  }
-  :nth-child(8) {
-    display: none;
-  }
-}
-
-#portfolio-lang {
-  display: flex;
-  :nth-child(6) {
-    display: none;
-  }
-  :nth-child(7) {
-    display: none;
-  }
-  :nth-child(8) {
-    display: none;
-  }
-}
-
-#viz-lang {
-  display: flex;
-  :nth-child(8) {
-    display: none;
-  }
 }
 
 @media (max-width: 1220px) {
