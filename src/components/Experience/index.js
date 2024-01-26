@@ -23,21 +23,33 @@ const Experience = () => {
               Experience
             </h1>
             <Experience1
+              title="Flow"
+              position="Frontend Developer Intern"
+              metaData="Remote | Jan 2024 - Present"
+              description="Coming soon..."
+              imagesrc=""
+              imagetitle="flow"
+              to="https://flowai.tech/"
+              languageID="flow-lang"
+              langlist="React DevOps JavaScript HTML CSS"
+            />
+
+            <Experience2
               title="Codology"
-              position="Frontend Developer - Software Engineer Intern"
-              metaData="Remote | Oct 2022 - Present"
-              description="As a web developer for Codology, my role involves creating and maintaining our 
-                    organization's website with JavaScript, HTML, and CSS, and ensuring it is user-friendly and accessible to a wide 
-                    audience. Additionally, I collaborate with the Codology team to implement digital solutions on the
+              position="Frontend Developer Intern"
+              metaData="Remote | Oct 2022 - Dec 2023"
+              description="As a web developer for Codology, my role involed creating and maintaining Codology's 
+                    website with JavaScript, HTML, and CSS, and ensuring it is user-friendly and accessible to a wide 
+                    audience. Additionally, I collaborated with the Codology team to implement digital solutions on the
                     website that enhance our online presence, engagement, and impact."
               imagesrc={codology}
               imagetitle="codology"
               to="https://www.codology.org/"
               languageID="codology-lang"
-              langlist="JavaScript HTML CSs"
+              langlist="JavaScript HTML CSS"
             />
 
-            <Experience2
+            <Experience1
               title="New Jersey Cybersecurity and Communications Integration Cell"
               position="Intern"
               metaData="Remote | Jul 2022 - Aug 2022"
@@ -51,7 +63,7 @@ const Experience = () => {
               imagetitle="njccic"
               to="https://www.cyber.nj.gov/"
               languageID="njccic-lang"
-              langlist=""
+              langlist="Cybersecurity"
             />
           </div>
         </div>
@@ -72,7 +84,7 @@ const Experience = () => {
                 imagetitle="sky"
                 to="https://skytkd.us/"
                 languageID="sky-lang"
-                langlist="React JavaScript HTML Sass 3cx"
+                langlist="React JavaScript HTML Sass 3CX"
                 github="https://github.com/NicholasChanng/sky-taekwondo-website"
               />
               <Project
@@ -153,7 +165,7 @@ const Experience2 = (prop) => {
         <p className="position-text">{prop.position}</p>
         <p className="meta-data"> {prop.metaData}</p>
         <p className="description-text">{prop.description}</p>
-        <div className="language-area">
+        <div id={prop.languageID} className="lang-area">
           {langlist.map((lang) => {
             return <div className="lang">{lang}</div>
           })}
