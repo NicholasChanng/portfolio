@@ -37,7 +37,7 @@ const Experience = () => {
 
             <Experience2
               title="Codology"
-              position="Frontend Developer Intern"
+              position="Front-End Developer Intern"
               metaData="Remote | Oct 2022 - Dec 2023"
               description="As a web developer for Codology, my role involed creating and maintaining Codology's 
                     website with JavaScript, HTML, and CSS, and ensuring it is user-friendly and accessible to a wide 
