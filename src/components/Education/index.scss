@@ -1,91 +1,90 @@
-.education-section{
-    .education-page{
-      .flex-box{
-        display: flex;
-        flex-direction: column;
-  
-        @media (max-width: 1220px) {
-          align-items: center;
-        }
-  
-        .title{
-          font-size: var(--title-font-size);
-          margin: 0;
-          margin-bottom: 10px;
-        }
-  
-        .description-area{
-          width: 100%;
-          .cornell{
+.education-section {
+  .education-page {
+    .flex-box {
+      display: flex;
+      flex-direction: column;
+
+      @media (max-width: 1220px) {
+        align-items: center;
+      }
+
+      .title {
+        font-size: var(--title-font-size);
+        margin: 0;
+        margin-bottom: 10px;
+      }
+
+      .description-area {
+        width: 100%;
+        .cornell {
+          display: flex;
+          flex-direction: column;
+          // background-color: var(--secondary-background-color);
+          background-image: var(--secondary-background-gradient);
+          box-shadow: var(--shadow-values);
+          border-radius: var(--border-radius);
+          padding: 20px;
+          font-size: 25px;
+          margin-bottom: 35px;
+          .cornell-title {
             display: flex;
-            flex-direction: column;
-            background-color: var(--secondary-background-color);
-            box-shadow: var(--shadow-values);
-            border-radius: var(--border-radius);
-            padding: 20px;
-            font-size: 25px;
-            margin-bottom: 35px;
-            .cornell-title{
-              display: flex;
-              justify-content: space-between;
-              @media (max-width: 600px) {
-               flex-direction: column; 
-               font-size: var(--responsive-font-size-small);
-              }
-              p{
-                margin: 0 0 5px;
-              }
-              .title{
-                font-size: var(--title-font-size);
-              }
-            }
+            justify-content: space-between;
             @media (max-width: 600px) {
-              li{
-                font-size: var(--responsive-font-size-small);
-              }
+              flex-direction: column;
+              font-size: var(--responsive-font-size-small);
             }
-            @media (max-width: 600px) {
-              span{
-                font-size: var(--responsive-font-size-small);
-              }
+            p {
+              margin: 0 0 5px;
+            }
+            .title {
+              font-size: var(--title-font-size);
             }
           }
-          .brhs{
+          @media (max-width: 600px) {
+            li {
+              font-size: var(--responsive-font-size-small);
+            }
+          }
+          @media (max-width: 600px) {
+            span {
+              font-size: var(--responsive-font-size-small);
+            }
+          }
+        }
+        .brhs {
+          display: flex;
+          flex-direction: column;
+          background-color: var(--secondary-background-color);
+          box-shadow: var(--shadow-values);
+          border-radius: var(--border-radius);
+          padding: 20px;
+          font-size: 25px;
+          .brhs-title {
             display: flex;
-            flex-direction: column;
-            background-color: var(--secondary-background-color);
-            box-shadow: var(--shadow-values);
-            border-radius: var(--border-radius);
-            padding: 20px;
-            font-size: 25px;
-            .brhs-title{
-              display: flex;
-              justify-content: space-between;
-              @media (max-width: 600px) {
-                flex-direction: column; 
-                font-size: var(--responsive-font-size-small);
-
-               }
-              p{
-                margin: 0 0 5px;
-              }
-              .title{
-                font-size: var(--title-font-size);
-              }
-            }
+            justify-content: space-between;
             @media (max-width: 600px) {
-              li{
-                font-size: var(--responsive-font-size-small);
-              }
+              flex-direction: column;
+              font-size: var(--responsive-font-size-small);
             }
-            @media (max-width: 600px) {
-              span{
-                font-size: var(--responsive-font-size-small);
-              }
+            p {
+              margin: 0 0 5px;
+            }
+            .title {
+              font-size: var(--title-font-size);
+            }
+          }
+          @media (max-width: 600px) {
+            li {
+              font-size: var(--responsive-font-size-small);
+            }
+          }
+          @media (max-width: 600px) {
+            span {
+              font-size: var(--responsive-font-size-small);
             }
           }
         }
       }
     }
   }
-  
+}

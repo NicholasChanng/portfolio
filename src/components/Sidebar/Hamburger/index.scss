@@ -72,7 +72,8 @@
   width: calc(100% - 60px);
   height: auto;
   min-height: 80px;
-  background-color: var(--secondary-background-color);
+  // background-color: var(--secondary-background-color);
+  background-image: var(--secondary-background-gradient);
   opacity: 0;
   border-bottom: 2px solid black;
   z-index: -1;

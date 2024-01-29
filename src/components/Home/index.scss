@@ -116,7 +116,8 @@
         .cornell {
           display: flex;
           flex-direction: column;
-          background-color: var(--secondary-background-color);
+          // background-color: var(--secondary-background-color);
+          background-image: var(--secondary-background-gradient);
           box-shadow: var(--shadow-values);
           border-radius: var(--border-radius);
           padding: 20px;
@@ -136,7 +137,9 @@
         .brhs {
           display: flex;
           flex-direction: column;
-          background-color: var(--secondary-background-color);
+          // background-color: var(--secondary-background-color);
+          background-image: var(--secondary-background-gradient);
+
           box-shadow: var(--shadow-values);
           border-radius: var(--border-radius);
           padding: 20px;

@@ -13,7 +13,8 @@
       }
       .content-area {
         width: 100%;
-        background-color: var(--secondary-background-color);
+        // background-color: var(--secondary-background-color);
+        background-image: var(--secondary-background-gradient);
         border-radius: var(--border-radius);
         box-shadow: var(--shadow-values);
         .description-text {

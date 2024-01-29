@@ -29,7 +29,8 @@
         margin-bottom: 35px;
         border-radius: var(--border-radius);
         box-shadow: var(--shadow-values);
-        background-color: var(--secondary-background-color);
+        // background-color: var(--secondary-background-color);
+        background-image: var(--secondary-background-gradient);
 
         @media (max-width: 1220px) {
           flex-direction: column;
@@ -160,7 +161,8 @@
           padding: 10px 0;
           border-radius: var(--border-radius);
           box-shadow: var(--shadow-values);
-          background-color: var(--secondary-background-color);
+          // background-color: var(--secondary-background-color);
+          background-image: var(--secondary-background-gradient);
 
           .description-area {
             display: flex;

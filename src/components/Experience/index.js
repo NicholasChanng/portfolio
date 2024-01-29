@@ -8,6 +8,7 @@ import sky from '../../assets/images/SKY.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import StyleLine from '../StyleLine'
+import flow from '../../assets/images/flow.png'
 
 const Experience = () => {
   return (
@@ -27,7 +28,7 @@ const Experience = () => {
               position="Front-End Engineer Intern"
               metaData="Remote | Jan 2024 - Present"
               description="Coming soon..."
-              imagesrc=""
+              imagesrc={flow}
               imagetitle="flow"
               to="https://flowai.tech/"
               languageID="flow-lang"
