@@ -12,7 +12,7 @@ import Contact from '../Contact Me'
 //     faEnvelope,
 //   } from '@fortawesome/free-solid-svg-icons'
 import './index.scss'
-// import Loader from 'react-loaders'
+import Loader from 'react-loaders'
 import LogoS from '../../assets/images/nick2.jpg'
 import wave from '../../assets/images/wave.png'
 import { React } from 'react'
@@ -108,7 +108,7 @@ const Home = () => {
 
       <Contact />
 
-      {/* <Loader type="ball-pulse-sync" /> */}
+      <Loader type="ball-pulse-sync" />
     </>
   )
 }
