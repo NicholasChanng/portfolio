@@ -6,7 +6,7 @@ import StyleLine from '../StyleLine'
 
 import portfolio from '../../assets/images/Portfolio.png'
 import njccic from '../../assets/images/njccic.png'
-import vizAsianHate from '../../assets/images/vizasianhate.png'
+import vizAsianHate from '../../assets/images/vizAsianHate.png'
 import codology from '../../assets/images/codology.png'
 import sky from '../../assets/images/SKY.png'
 import flow from '../../assets/images/flow.png'
