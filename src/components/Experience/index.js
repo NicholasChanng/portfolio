@@ -1,13 +1,14 @@
 import { Link } from 'react-router-dom'
 import './index.scss'
-import portfolio from '../../assets/images/Portfolio.png'
-import njccic from '../../assets/images/njccic.png'
-import vizAsianHate from '../../assets/images/vizAsianHate.png'
-import codology from '../../assets/images/codology.png'
-import sky from '../../assets/images/SKY.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import StyleLine from '../StyleLine'
+
+import portfolio from '../../assets/images/portfolio.png'
+import njccic from '../../assets/images/njccic.png'
+import vizAsianHate from '../../assets/images/vizasianhate.png'
+import codology from '../../assets/images/codology.png'
+import sky from '../../assets/images/SKY.png'
 import flow from '../../assets/images/flow.png'
 
 const Experience = () => {
