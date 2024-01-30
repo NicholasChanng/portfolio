@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import StyleLine from '../StyleLine'
 
-import portfolio from '../../assets/images/portfolio.png'
+import portfolio from '../../assets/images/Portfolio.png'
 import njccic from '../../assets/images/njccic.png'
 import vizAsianHate from '../../assets/images/vizasianhate.png'
 import codology from '../../assets/images/codology.png'
