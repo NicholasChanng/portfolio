@@ -68,7 +68,6 @@ textarea {
   padding: 100px 0;
   will-change: contents;
   margin: 0;
-  opacity: 0;
   transform-style: preserve-3d;
   // animation: fadeIn 0.75s forwards;
   // animation-delay: 1s;
@@ -109,6 +108,19 @@ textarea {
 //     filter: blur(0);
 //   }
 // }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  65% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 h1,
 h2,
