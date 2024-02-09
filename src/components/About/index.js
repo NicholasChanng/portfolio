@@ -18,7 +18,7 @@ const About = () => {
             <div className="description-text">
               <p>
                 I'm a passionate coder from central New Jersey. I have
-                experience with React, Javascript, HMTL, and CSS on the
+                experience with React, Javascript, HTML, and CSS on the
                 Front-End and Java and Python on the Back-End. When I'm not
                 immersed in lines of code, you'll find me watching the
                 Washington Nationals with my dad or conquering virtual worlds in
