@@ -42,7 +42,7 @@ const Menu = () => {
         <img src={LogoS} alt="logo" />
       </div>
       <div
-        data-aos="fade-up"
+        data-aos-fake="fade-up"
         className={`dropdown-menu ${open ? 'active' : 'inactive'}`}
       >
         <h3>

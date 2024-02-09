@@ -21,7 +21,11 @@ import StyleLine from '../StyleLine'
 const Home = () => {
   return (
     <>
-      <section id="home" className="section home-section">
+      <section
+        data-aos-fake="fade-up"
+        id="home"
+        className="section home-section"
+      >
         <div className="page home-page">
           <div className="flex-box">
             <div className="home-text">

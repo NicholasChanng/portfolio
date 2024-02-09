@@ -3,17 +3,17 @@ import './index.scss'
 const Education = () => {
   return (
     <section
-      data-aos="fade-up"
+      data-aos-fake="fade-up"
       id="education"
       className="section education-section"
     >
       <div className="page education-page">
         <div className="flex-box">
-          <h1 data-aos="fade-up" className="title">
+          <h1 data-aos-fake="fade-up" className="title">
             Education
           </h1>
           <div className="description-area">
-            <div data-aos="fade-up" className="cornell">
+            <div data-aos-fake="fade-up" className="cornell">
               <span className="cornell-title">
                 <h1 className="title">Cornell University</h1>
                 <p>Expected Graduation, Dec 2026</p>
@@ -39,7 +39,7 @@ const Education = () => {
               </li>
               <li>Member of Chinese Student Association (CSA)</li>
             </div>
-            <div data-aos="fade-up" className="brhs">
+            <div data-aos-fake="fade-up" className="brhs">
               <span className="brhs-title">
                 <h1 className="title">Bridgewater-Raritan High School</h1>
                 <p>Graduated, June 2023</p>

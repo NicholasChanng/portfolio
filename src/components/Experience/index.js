@@ -15,13 +15,13 @@ const Experience = () => {
   return (
     <>
       <section
-        data-aos="fade-up"
+        data-aos-fake="fade-up"
         id="portfolio"
         className="section experience-section"
       >
         <div className="page experience-page">
           <div className="flex-box">
-            <h1 data-aos="fade-up" className="title">
+            <h1 data-aos-fake="fade-up" className="title">
               Experience
             </h1>
             <Experience1
@@ -73,10 +73,10 @@ const Experience = () => {
 
       <StyleLine />
 
-      <section data-aos="fade-up" className="section project-section">
+      <section data-aos-fake="fade-up" className="section project-section">
         <div className="page project-page">
           <div className="flex-box">
-            <h1 data-aos="fade-up" className="title">
+            <h1 data-aos-fake="fade-up" className="title">
               Projects
             </h1>
             <div className="project-area">
@@ -121,7 +121,7 @@ const Experience1 = (prop) => {
   let langlist = prop.langlist.split(' ')
 
   return (
-    <div data-aos="fade-up" className="job-content">
+    <div data-aos-fake="fade-up" className="job-content">
       <div className="description-area">
         <h1 className="title-text">{prop.title}</h1>
         <p className="position-text">{prop.position}</p>
@@ -152,7 +152,7 @@ const Experience2 = (prop) => {
   let langlist = prop.langlist.split(' ')
 
   return (
-    <div data-aos="fade-up" className="job-content">
+    <div data-aos-fake="fade-up" className="job-content">
       <div className="image-area">
         <Link to={prop.to} target="_blank" rel="noreferrer">
           <img
@@ -183,7 +183,7 @@ const Project = (prop) => {
   let langlist = prop.langlist.split(' ')
 
   return (
-    <div data-aos="fade-up" className="project-content">
+    <div data-aos-fake="fade-up" className="project-content">
       <div className="description-area">
         <div className="project-flex">
           <a href={prop.to} target="_blank" rel="noreferrer">
