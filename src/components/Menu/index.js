@@ -41,10 +41,7 @@ const Menu = () => {
       >
         <img src={LogoS} alt="logo" />
       </div>
-      <div
-        data-aos="fade-up"
-        className={`dropdown-menu ${open ? 'active' : 'inactive'}`}
-      >
+      <div className={`dropdown-menu ${open ? 'active' : 'inactive'}`}>
         <h3>
           Nicholas Channg
           <br />
@@ -93,8 +90,7 @@ function DropdownItem(props) {
         className="anchor-icon"
       />
       <a href={props.href} target={props.target} rel={props.rel}>
-        {' '}
-        {props.text}{' '}
+        {props.text}
       </a>
     </li>
   )

@@ -96,7 +96,7 @@ const Experience = () => {
                 imagesrc={sky}
                 imagetitle="sky"
                 to="https://skytkd.us/"
-                description="Storefront for Business with 430K+ Subscribers & 400M+ views on YT"
+                description="Storefront for Business with 430K+ Subscribers & 400M+ Views on YouTube"
                 languageID="sky-lang"
                 langlist="React JavaScript HTML Sass 3CX"
                 github="https://github.com/NicholasChanng/sky-taekwondo-website"
