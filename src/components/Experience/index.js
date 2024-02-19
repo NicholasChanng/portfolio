@@ -27,7 +27,7 @@ const Experience = () => {
             </h1>
             <Experience1
               title="Flow"
-              position="Front-End Engineer Intern"
+              position="Software Engineer Intern"
               metaData="Remote | Jan 2024 - Present"
               description="Coming soon..."
               imagesrc={flow}
