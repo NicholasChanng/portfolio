@@ -10,10 +10,14 @@ const Sidebar = () => {
   let lastScrollY = window.scrollY
 
   window.addEventListener('scroll', () => {
-    if (lastScrollY < window.scrollY) {
-      if (navbar) setNavbar(!navbar)
+    if (window.scrollY === 0) {
+      if (!navbar) setNavbar(true)
     } else {
-      if (!navbar) setNavbar(!navbar)
+      if (lastScrollY < window.scrollY) {
+        if (navbar) setNavbar(false)
+      } else {
+        if (!navbar) setNavbar(true)
+      }
     }
 
     lastScrollY = window.scrollY
