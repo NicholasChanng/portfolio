@@ -116,7 +116,7 @@ const Experience = () => {
                 imagesrc={vizAsianHate}
                 imagetitle="vizAsianhate"
                 to="https://stop-aapi-hate-dashboard.vercel.app/"
-                description="Interactiivty Award & Wolfram Award @ Vizathon 2021"
+                description="Interactivity Award & Wolfram Award @ Vizathon 2021"
                 languageID="viz-lang"
                 langlist="React JavaScript Next.js Chakra-UI Mapbox Recharts Vercel"
                 github="https://github.com/rolandyangg/vizAsianHate"
@@ -208,7 +208,12 @@ const Project = (prop) => {
             />
           </a>
           <h1 className="underline title-text">
-            <a href={prop.to} target="_blank" rel="noreferrer">
+            <a
+              className="underline"
+              href={prop.to}
+              target="_blank"
+              rel="noreferrer"
+            >
               {prop.title}
             </a>
           </h1>
