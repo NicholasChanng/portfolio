@@ -16,7 +16,7 @@ const Education = () => {
             <div data-aos="fade-up" className="cornell">
               <span className="cornell-title">
                 <h1 className="title">Cornell University</h1>
-                <p>Expected Graduation, Dec 2026</p>
+                <p>Expected Graduation, May 2026</p>
               </span>
               <span>B.A Computer Science - College of Arts and Sciences</span>
               <br />
