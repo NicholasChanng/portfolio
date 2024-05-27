@@ -17,12 +17,10 @@ const About = () => {
           <div className="content-area">
             <div className="description-text">
               <p>
-                I'm a passionate coder from central New Jersey. I have
-                experience with React, Javascript, HTML, and CSS on the
-                Front-End and Java and Python on the Back-End. When I'm not
-                immersed in lines of code, you'll find me watching the
-                Washington Nationals with my dad or conquering virtual worlds in
-                video games.
+                I'm a passionate coder from New Jersey looking for any tech
+                opportunties. Besides coding, I love eating a variety of food,
+                playing video games, and performing Taekwondo. Hope you enjoy my
+                website!
               </p>
             </div>
             <div className="image-area">

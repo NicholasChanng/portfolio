@@ -29,8 +29,7 @@ const Experience = () => {
               title="Flow"
               position="Software Engineer Intern"
               metaData="Remote | Jan 2024 - Present"
-              description="As a Software Engineer Intern at Flow, my role includes developing various different
-               components on the Flow Turbo Platform and the Custom Flow Website."
+              description="Coding the Flow Turbo Platform and Flow Website"
               imagesrc={flow}
               imagetitle="flow"
               to="https://flowai.tech/"
@@ -42,10 +41,7 @@ const Experience = () => {
               title="Codology"
               position="Front-End Developer Intern"
               metaData="Remote | Oct 2022 - Dec 2023"
-              description="As a web developer for Codology, my role involed creating and maintaining Codology's 
-                    website with JavaScript, HTML, and CSS, and ensuring it is user-friendly and accessible to a wide 
-                    audience. Additionally, I collaborated with the Codology team to implement digital solutions on the
-                    website that enhance our online presence, engagement, and impact."
+              description="Coded the Codology Website"
               imagesrc={codology}
               imagetitle="codology"
               to="https://www.codology.org/"
@@ -57,12 +53,7 @@ const Experience = () => {
               title="New Jersey Cybersecurity and Communications Integration Cell"
               position="Intern"
               metaData="Remote | Jul 2022 - Aug 2022"
-              description="As an intern at the NJCCIC (New Jersey Cybersecurity and Communications Integration Cell), 
-                    I played a vital role in supporting their mission to enhance cybersecurity and critical infrastructure resilience. 
-                    During my internship, I assisted in monitoring and analyzing cybersecurity threats and incidents, contributing to 
-                    the organization's proactive defense efforts. This valuable experience provided me with real-world insights into the 
-                    evolving landscape of cybersecurity and helped me develop essential skills for a career in this field.
-                    "
+              description="1 out of 22 interns chosen in all of NJ"
               imagesrc={njccic}
               imagetitle="njccic"
               to="https://www.cyber.nj.gov/"

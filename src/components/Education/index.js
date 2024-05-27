@@ -27,11 +27,6 @@ const Education = () => {
                 Introduction to Computing: A Design and Development Perspective
                 (Python)
               </li>
-              <li>Discrete Structures</li>
-              <li>Basic Engineering Probability and Statistics</li>
-              <li>Calculus I</li>
-              <li>Calculus II</li>
-              <li>Linear Algebra</li>
               <br />
               Activities:
               <li>
