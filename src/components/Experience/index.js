@@ -10,6 +10,7 @@ import vizAsianHate from '../../assets/images/vizAsianHate.png'
 import codology from '../../assets/images/codology.png'
 import sky from '../../assets/images/SKY.png'
 import flow from '../../assets/images/flow.png'
+import mathgpt from '../../assets/images/mathgpt.png'
 import prakriti from '../../assets/images/prakriti.png'
 
 const Experience = () => {
@@ -25,16 +26,27 @@ const Experience = () => {
             <h1 data-aos="fade-up" className="title">
               Experience
             </h1>
+            <Experience2
+              title="MathGPT"
+              position="Software Developer Intern"
+              metaData="Remote | May 2024 - Jun 2024"
+              description="Coded an AI Calculus Calculator Chrome Extension"
+              imagesrc={mathgpt}
+              to="https://math-gpt.org"
+              languageID="mathgpt-lang"
+              langlist="React Plasmo APIs JavaScript HTML CSS"
+            />
+
             <Experience1
               title="Flow"
               position="Software Engineer Intern"
-              metaData="Remote | Jan 2024 - Present"
+              metaData="Remote | Jan 2024 - Jun 2024"
               description="Coding the Flow Turbo Platform and Flow Website"
               imagesrc={flow}
               imagetitle="flow"
               to="https://flowai.tech/"
               languageID="flow-lang"
-              langlist="React DevOps JavaScript HTML CSS"
+              langlist="React DevOps RESTFUL-APIs JavaScript HTML CSS"
             />
 
             <Experience2
