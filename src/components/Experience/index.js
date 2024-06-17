@@ -41,7 +41,7 @@ const Experience = () => {
               title="Flow"
               position="Software Engineer Intern"
               metaData="Remote | Jan 2024 - Jun 2024"
-              description="Coding the Flow Turbo Platform and Flow Website"
+              description="Coded the Flow Turbo Platform and Flow Website"
               imagesrc={flow}
               imagetitle="flow"
               to="https://flowai.tech/"
