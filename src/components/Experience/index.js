@@ -11,6 +11,7 @@ import codology from '../../assets/images/codology.png'
 import sky from '../../assets/images/SKY.png'
 import flow from '../../assets/images/flow.png'
 import mathgpt from '../../assets/images/mathgpt.png'
+import icode from '../../assets/images/icode.png'
 import prakriti from '../../assets/images/prakriti.png'
 
 const Experience = () => {
@@ -26,6 +27,18 @@ const Experience = () => {
             <h1 data-aos="fade-up" className="title">
               Experience
             </h1>
+
+            <Experience1
+              title="iCode School Franchise"
+              position="Lab Mentor"
+              metaData="On-site | Jun 2024 - Present"
+              description="Teaching kids Python and Web Development"
+              imagesrc={icode}
+              to="https://icodeschool.com/"
+              languageID="icode-lang"
+              langlist="Python HTML CSS"
+            />
+
             <Experience2
               title="MathGPT"
               position="Software Developer Intern"
