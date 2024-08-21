@@ -27,7 +27,7 @@ const Contact = () => {
   }
   return (
     <>
-      <section data-aos="" id="contact" className="section contact-section">
+      <section d="" id="contact" className="section contact-section">
         <div className="page">
           <div className="text-zone">
             <h1>Contact Me</h1>

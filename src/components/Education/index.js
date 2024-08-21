@@ -2,14 +2,14 @@ import './index.scss'
 
 const Education = () => {
   return (
-    <section data-aos="" id="education" className="section education-section">
+    <section d="" id="education" className="section education-section">
       <div className="page education-page">
         <div className="flex-box">
-          <h1 data-aos="" className="title">
+          <h1 d="" className="title">
             Education
           </h1>
           <div className="description-area">
-            <div data-aos="" className="cornell">
+            <div d="" className="cornell">
               <span className="cornell-title">
                 <h1 className="title">Cornell University</h1>
                 <p>Expected Graduation, May 2026</p>
@@ -30,7 +30,7 @@ const Education = () => {
               </li>
               <li>Member of Chinese Student Association (CSA)</li>
             </div>
-            <div data-aos="" className="brhs">
+            <div d="" className="brhs">
               <span className="brhs-title">
                 <h1 className="title">Bridgewater-Raritan High School</h1>
                 <p>Graduated, June 2023</p>

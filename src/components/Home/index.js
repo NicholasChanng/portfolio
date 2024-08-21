@@ -21,7 +21,7 @@ import StyleLine from '../StyleLine'
 const Home = () => {
   return (
     <>
-      <section data-aos="" id="home" className="section home-section">
+      <section d="" id="home" className="section home-section">
         <div className="page home-page">
           <div className="flex-box">
             <div className="home-text">
