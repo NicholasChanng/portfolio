@@ -26,7 +26,7 @@ const Experience = () => {
 
             <Experience1
               title="iCode School Franchise"
-              position="Lab Mentor"
+              position="Software Engineer Tutor"
               metaData="On-site | Jun 2024 - Present"
               description="Teaching kids Python and Web Development"
               imagesrc={icode}
