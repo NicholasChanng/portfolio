@@ -29,7 +29,7 @@ const Home = () => {
                 <span className="welcome">Welcome!</span>
                 <img src={wave} alt="wave" className="wave" />
                 <br /> My name is <span className="name">Nicholas Channg </span>
-                <br /> I am a Computer Science student at Cornell University
+                <br /> I am a CS + AI Minor student at Cornell University
               </h1>
               <div className="buttons">
                 {/* <Link className = "flat-button" to = "/experience">
