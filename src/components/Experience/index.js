@@ -13,6 +13,7 @@ import flow from '../../assets/images/flow.png'
 import mathgpt from '../../assets/images/mathgpt.png'
 import icode from '../../assets/images/icode.png'
 import prakriti from '../../assets/images/prakriti.png'
+import cs3110 from '../../assets/images/cs3110.png'
 
 const Experience = () => {
   return (
@@ -94,6 +95,16 @@ const Experience = () => {
               Projects
             </h1>
             <div className="project-area">
+              <Project
+                title="OCaml Casino"
+                imagesrc={cs3110}
+                imagetitle="cs3110"
+                to="https://github.com/NicholasChanng/cs3110-final-project"
+                description="CS 3110 Final Project"
+                languageID="CS3110"
+                langlist="OCaml"
+                github="https://github.com/NicholasChanng/cs3110-final-project"
+              />
               <Project
                 title="Prakriti"
                 imagesrc={prakriti}
