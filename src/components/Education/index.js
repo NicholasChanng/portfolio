@@ -17,6 +17,8 @@ const Education = () => {
               <span>B.A Computer Science - College of Arts and Sciences</span>
               <br />
               Relevant Coursework:
+              <li>Introduction to Analysis of Algorithms</li>
+              <li>Introduction to Database Systems (SQL) </li>
               <li>Data Structures and Functional Programming (OCaml)</li>
               <li>Object-Oriented Programming and Data Structures (Java)</li>
               <li>
