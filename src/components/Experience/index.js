@@ -39,7 +39,7 @@ const Experience = () => {
             <Experience2
               title="MathGPT"
               position="Software Developer Intern"
-              metaData="Remote | May 2024 - Jun 2024"
+              metaData="Remote | May 2024 - July 2024"
               description="Coded an AI Calculus Calculator Chrome Extension"
               imagesrc={mathgpt}
               to="https://math-gpt.org"
@@ -61,7 +61,7 @@ const Experience = () => {
 
             <Experience2
               title="Codology"
-              position="Front-End Developer Intern"
+              position="Frontend Engineer Intern"
               metaData="Remote | Oct 2022 - Dec 2023"
               description="Coded the Codology Website"
               imagesrc={codology}
