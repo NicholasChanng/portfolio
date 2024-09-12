@@ -38,7 +38,7 @@ const Experience = () => {
 
             <Experience2
               title="MathGPT"
-              position="Software Developer Intern"
+              position="Software Engineer Intern"
               metaData="Remote | May 2024 - July 2024"
               description="Coded an AI Calculus Calculator Chrome Extension"
               imagesrc={mathgpt}
