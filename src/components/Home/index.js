@@ -72,7 +72,7 @@ const Home = () => {
                 </Link>
                 <Link
                   className="flat-button"
-                  to="https://docs.google.com/document/d/16CVvyqrcSoxm_TymApA0ifMq28jLlMgsrhmYsqQ2ukU/edit?usp=sharing"
+                  to="https://drive.google.com/file/d/1nxk40e6Ss63TES4hHD6-1bIhpt2P6auX/view?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
                 >
