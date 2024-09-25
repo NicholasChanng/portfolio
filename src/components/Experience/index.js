@@ -49,7 +49,7 @@ const Experience = () => {
 
             <Experience1
               title="Flow"
-              position="Software Engineer Intern"
+              position="Full Stack Engineer Intern"
               metaData="Remote | Jan 2024 - Jun 2024"
               description="Coded the Flow Turbo Platform and Flow Website"
               imagesrc={flow}
