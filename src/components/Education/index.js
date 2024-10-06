@@ -27,6 +27,7 @@ const Education = () => {
               </li>
               <br />
               Activities:
+              <li>Software Developer at Cornell Webdev</li>
               <li>
                 Member of Association of Computer Science Undergraduates (ACSU)
               </li>
