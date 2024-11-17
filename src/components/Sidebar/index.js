@@ -41,7 +41,7 @@ const Sidebar = () => {
 
               <a href="#education">Education</a>
 
-              <a href="#portfolio">Portfolio</a>
+              <a href="#portfolio">Experience</a>
 
               <a href="#contact">Contact</a>
             </nav>
