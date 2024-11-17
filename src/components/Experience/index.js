@@ -49,14 +49,14 @@ const Experience = () => {
 
             <Experience1
               title="Flow"
-              position="Full Stack Engineer Intern"
+              position="Software Engineer Intern"
               metaData="Remote | Jan 2024 - May 2024"
               description="Coded the Flow Turbo Platform and Flow Website"
               imagesrc={flow}
               imagetitle="flow"
               to="https://flowai.tech/"
               languageID="flow-lang"
-              langlist="React DevOps RESTFUL-APIs JavaScript HTML CSS"
+              langlist="React Python Flask REST-APIs TypeScript HTML CSS DevOps"
             />
 
             <Experience2
