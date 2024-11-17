@@ -47,7 +47,7 @@ const Bottombar = () => {
               </Link>
               <Link
                 className="social-button"
-                to="https://drive.google.com/file/d/1CVjj-WUO-II1UxJdbpSevn6o7BMrTclw/view?usp=sharing"
+                to="https://drive.google.com/file/d/15_UZrePmlb_1QbFMfio7fXUKYYDhoK99/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >
