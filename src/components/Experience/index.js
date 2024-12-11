@@ -73,7 +73,7 @@ const Experience = () => {
 
             <Experience1
               title="New Jersey Cybersecurity and Communications Integration Cell"
-              position="Intern"
+              position="Cybersecurity Intern"
               metaData="Remote | Jul 2022 - Aug 2022"
               description="1 out of 22 interns chosen in all of NJ"
               imagesrc={njccic}
