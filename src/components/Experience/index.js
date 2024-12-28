@@ -33,7 +33,7 @@ const Experience = () => {
               imagesrc={icode}
               to="https://icodeschool.com/"
               languageID="icode-lang"
-              langlist="Python HTML CSS"
+              langlist="Python,JavaScript,HTML,CSS"
             />
 
             <Experience2
@@ -44,7 +44,7 @@ const Experience = () => {
               imagesrc={mathgpt}
               to="https://math-gpt.org"
               languageID="mathgpt-lang"
-              langlist="React Plasmo APIs JavaScript HTML CSS"
+              langlist="React,Plasmo,RESTful APIs,TypeScript,HTML,CSS"
             />
 
             <Experience1
@@ -56,7 +56,7 @@ const Experience = () => {
               imagetitle="flow"
               to="https://flowai.tech/"
               languageID="flow-lang"
-              langlist="React Python Flask REST-APIs TypeScript HTML CSS DevOps"
+              langlist="React,Python,Flask,REST APIs,TypeScript,HTML,CSS,DevOps"
             />
 
             <Experience2
@@ -68,7 +68,7 @@ const Experience = () => {
               imagetitle="codology"
               to="https://www.codology.org/"
               languageID="codology-lang"
-              langlist="JavaScript HTML CSS"
+              langlist="JavaScript,HTML,CSS"
             />
 
             <Experience1
@@ -95,6 +95,17 @@ const Experience = () => {
               Projects
             </h1>
             <div className="project-area">
+              {/* <Project
+                title=""
+                imagesrc={cs3110}
+                imagetitle="cs3110"
+                to="https://github.com/NicholasChanng/cs3110-final-project"
+                description="CS 3110 Final Project"
+                languageID="CS3110"
+                langlist="Scikit-learn Pandas NumPy Matplotlib"
+                github="https://github.com/NicholasChanng/cs3110-final-project"
+              /> */}
+
               <Project
                 title="OCaml Casino"
                 imagesrc={cs3110}
@@ -112,7 +123,7 @@ const Experience = () => {
                 to="https://prakriti-hack.netlify.app/"
                 description="1st Place @ Cornell Digital Agriculture Hackathon 2024"
                 languageID="prakriti-lang"
-                langlist="React JavaScript HTML CSS"
+                langlist="React,JavaScript,HTML,CSS"
                 github="https://github.com/NicholasChanng/prakriti"
               />
               <Project
@@ -122,7 +133,7 @@ const Experience = () => {
                 to="https://skytkd.us/"
                 description="Storefront for Business with 430K+ Subscribers & 400M+ Views on YouTube"
                 languageID="sky-lang"
-                langlist="React JavaScript HTML Sass 3CX"
+                langlist="React,JavaScript,HTML,Sass,3CX"
                 github="https://github.com/NicholasChanng/sky-taekwondo-website"
               />
               <Project
@@ -132,7 +143,7 @@ const Experience = () => {
                 to=""
                 description="Personal Portfolio Website"
                 languageID="portfolio-lang"
-                langlist="React JavaScript HTML Sass Email.js"
+                langlist="React,JavaScript,HTML,Sass,Email.js"
                 github="https://github.com/NicholasChanng/portfolio"
               />
               <Project
@@ -142,7 +153,7 @@ const Experience = () => {
                 to="https://stop-aapi-hate-dashboard.vercel.app/"
                 description="Interactivity Award & Wolfram Award @ Vizathon 2021"
                 languageID="viz-lang"
-                langlist="React JavaScript Next.js Chakra-UI Mapbox Recharts Vercel"
+                langlist="React,JavaScript,Next.js,Chakra UI,Mapbox,Recharts,Vercel"
                 github="https://github.com/rolandyangg/vizAsianHate"
               />
             </div>
@@ -156,7 +167,7 @@ const Experience = () => {
 const Experience1 = (prop) => {
   //title, position, description, imagesrc, imagetitle, to, languageID, langs, github
 
-  let langlist = prop.langlist.split(' ')
+  let langlist = prop.langlist.split(',')
 
   return (
     <div d="" className="job-content">
@@ -187,7 +198,7 @@ const Experience1 = (prop) => {
 const Experience2 = (prop) => {
   //title, position, description, imagesrc, imagetitle, to, languageID, langs, github
 
-  let langlist = prop.langlist.split(' ')
+  let langlist = prop.langlist.split(',')
 
   return (
     <div d="" className="job-content">
@@ -218,7 +229,7 @@ const Experience2 = (prop) => {
 const Project = (prop) => {
   //title, position, description, imagesrc, imagetitle, to, languageID, langs, github
 
-  let langlist = prop.langlist.split(' ')
+  let langlist = prop.langlist.split(',')
 
   return (
     <div d="" className="project-content">
