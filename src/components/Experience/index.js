@@ -4,16 +4,20 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import StyleLine from '../StyleLine'
 
-import portfolio from '../../assets/images/Portfolio.png'
-import njccic from '../../assets/images/njccic.png'
-import vizAsianHate from '../../assets/images/vizAsianHate.png'
-import codology from '../../assets/images/codology.png'
-import sky from '../../assets/images/SKY.png'
-import flow from '../../assets/images/flow.png'
-import mathgpt from '../../assets/images/mathgpt.png'
+// Experience
 import icode from '../../assets/images/icode.png'
-import prakriti from '../../assets/images/prakriti.png'
+import mathgpt from '../../assets/images/mathgpt.png'
+import flow from '../../assets/images/flow.png'
+import codology from '../../assets/images/codology.png'
+import njccic from '../../assets/images/njccic.png'
+
+// Projects
+import integral from '../../assets/images/integralCalculator.png'
 import cs3110 from '../../assets/images/cs3110.png'
+import prakriti from '../../assets/images/prakriti.png'
+import sky from '../../assets/images/SKY.png'
+import portfolio from '../../assets/images/Portfolio.png'
+import vizAsianHate from '../../assets/images/vizAsianHate.png'
 
 const Experience = () => {
   return (
@@ -95,16 +99,16 @@ const Experience = () => {
               Projects
             </h1>
             <div className="project-area">
-              {/* <Project
-                title=""
-                imagesrc={cs3110}
+              <Project
+                title="AI Integral Calculator Chrome Extension"
+                imagesrc={integral}
                 imagetitle="cs3110"
-                to="https://github.com/NicholasChanng/cs3110-final-project"
-                description="CS 3110 Final Project"
-                languageID="CS3110"
-                langlist="Scikit-learn Pandas NumPy Matplotlib"
-                github="https://github.com/NicholasChanng/cs3110-final-project"
-              /> */}
+                to="https://chromewebstore.google.com/detail/mathgpt-ai-integral-calcu/eigepigbinecchjcgogpioinidpgamcm"
+                description="MathGPT Project"
+                languageID="Integral"
+                langlist="React,TypeScript,CSS,Plasmo,RESTful API"
+                github="https://chromewebstore.google.com/detail/mathgpt-ai-integral-calcu/eigepigbinecchjcgogpioinidpgamcm"
+              />
 
               <Project
                 title="OCaml Casino"
