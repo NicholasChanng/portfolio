@@ -12,6 +12,7 @@ import codology from '../../assets/images/codology.png'
 import njccic from '../../assets/images/njccic.png'
 
 // Projects
+import electai from '../../assets/images/electai.png'
 import integral from '../../assets/images/integralCalculator.png'
 import cs3110 from '../../assets/images/cs3110.png'
 import prakriti from '../../assets/images/prakriti.png'
@@ -99,6 +100,17 @@ const Experience = () => {
               Projects
             </h1>
             <div className="project-area">
+              <Project
+                title="ElectAI"
+                imagesrc={electai}
+                imagetitle="electai"
+                to="https://github.com/NicholasChanng/ElectAI"
+                description="Voter Turnout Machine Learning Model"
+                languageID="ElectAI"
+                langlist="Python, Scikit-learn, NumPy, Pandas, Flask, React, TypeScript, TailwindCSS"
+                github="https://github.com/NicholasChanng/ElectAI"
+              />
+
               <Project
                 title="AI Integral Calculator Chrome Extension"
                 imagesrc={integral}
