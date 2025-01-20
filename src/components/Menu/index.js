@@ -71,7 +71,7 @@ const Menu = () => {
           <DropdownItem
             img={faFolderOpen}
             text={'Resume'}
-            href="https://drive.google.com/file/d/1HRXhIBv9bThOIkREY-4C1SW714t6QQlF/view?usp=sharing"
+            href="https://drive.google.com/file/d/1e2JTjLSvU5YtRlULlFgx1dgsW4n25gjZ/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           />
