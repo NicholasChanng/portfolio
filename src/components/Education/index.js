@@ -14,7 +14,11 @@ const Education = () => {
                 <h1 className="title">Cornell University</h1>
                 <p>Expected Graduation, May 2026</p>
               </span>
-              <span>B.A Computer Science - College of Arts and Sciences</span>
+              <span>
+                B.A Computer Science, Minor in Artificial Intelligence, Minor in
+                Data Science
+              </span>
+              <span>GPA: 3.7, Dean's List</span>
               <br />
               Relevant Coursework:
               <li>Introduction to Analysis of Algorithms</li>

@@ -112,7 +112,7 @@ const Experience = () => {
               />
 
               <Project
-                title="AI Integral Calculator Chrome Extension"
+                title="AI Math Tutor Chrome Extension"
                 imagesrc={integral}
                 imagetitle="cs3110"
                 to="https://chromewebstore.google.com/detail/mathgpt-ai-integral-calcu/eigepigbinecchjcgogpioinidpgamcm"
