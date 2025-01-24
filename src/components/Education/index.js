@@ -38,7 +38,7 @@ const Education = () => {
                 <h1 className="title">Bridgewater-Raritan High School</h1>
                 <p>Graduated, June 2023</p>
               </span>
-              <span>GPA - 4.68/4.0</span>
+              <span>GPA: 4.7</span>
               <span>Graduated High Honors (Top 5%)</span>
               <br />
               Activities and Leadership:
