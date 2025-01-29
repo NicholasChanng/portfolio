@@ -31,17 +31,6 @@ const Experience = () => {
             </h1>
 
             <Experience1
-              title="iCode School Franchise"
-              position="Instructor"
-              metaData="On-site | Jun 2024 - Present"
-              description="Teaching kids Python and Web Development"
-              imagesrc={icode}
-              to="https://icodeschool.com/"
-              languageID="icode-lang"
-              langlist="Python,JavaScript,HTML,CSS"
-            />
-
-            <Experience2
               title="MathGPT"
               position="Software Engineer Intern"
               metaData="Remote | May 2024 - July 2024"
@@ -50,6 +39,17 @@ const Experience = () => {
               to="https://math-gpt.org"
               languageID="mathgpt-lang"
               langlist="React,Plasmo,RESTful APIs,TypeScript,HTML,CSS"
+            />
+
+            <Experience2
+              title="iCode School Franchise"
+              position="Instructor"
+              metaData="On-site | May 2024 - July 2024"
+              description="Teaching kids Python and Web Development"
+              imagesrc={icode}
+              to="https://icodeschool.com/"
+              languageID="icode-lang"
+              langlist="Python,JavaScript,HTML,CSS"
             />
 
             <Experience1
