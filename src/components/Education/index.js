@@ -18,7 +18,7 @@ const Education = () => {
                 B.A Computer Science, Minor in Artificial Intelligence, Minor in
                 Data Science
               </span>
-              <span>GPA: 3.7, Dean's List</span>
+              <span>GPA: 3.7/4.0, Dean's List</span>
               <br />
               Relevant Coursework:
               <li>Introduction to Analysis of Algorithms</li>
@@ -31,7 +31,9 @@ const Education = () => {
               </li>
               <br />
               Activities:
-              <li>Software Developer at Cornell Webdev</li>
+              <li>Business Member at Cornell Hack4Impact</li>
+              <li>Project Manageer at Cornell Custom Silicon Systems (C2S2)</li>
+              <li>Consulting Director of Cornell Webdev</li>
               <li>
                 Member of Association of Computer Science Undergraduates (ACSU)
               </li>

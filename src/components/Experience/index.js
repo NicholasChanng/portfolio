@@ -64,7 +64,7 @@ const Experience = () => {
               langlist="React,Python,Flask,REST APIs,TypeScript,HTML,CSS,DevOps"
             />
 
-            <Experience2
+            <Experience1
               title="Codology"
               position="Frontend Engineer Intern"
               metaData="Remote | Oct 2022 - Dec 2023"
