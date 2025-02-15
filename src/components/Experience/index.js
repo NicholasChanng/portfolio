@@ -211,36 +211,36 @@ const Experience1 = (prop) => {
   )
 }
 
-const Experience2 = (prop) => {
-  //title, position, description, imagesrc, imagetitle, to, languageID, langs, github
+// const Experience2 = (prop) => {
+//   //title, position, description, imagesrc, imagetitle, to, languageID, langs, github
 
-  let langlist = prop.langlist.split(',')
+//   let langlist = prop.langlist.split(',')
 
-  return (
-    <div d="" className="job-content">
-      <div className="image-area">
-        <Link to={prop.to} target="_blank" rel="noreferrer">
-          <img
-            src={prop.imagesrc}
-            className="image-prop"
-            alt={prop.imagetitle}
-          />
-        </Link>
-      </div>
-      <div className="description-area">
-        <h1 className="title-text">{prop.title}</h1>
-        <p className="position-text">{prop.position}</p>
-        <p className="meta-data"> {prop.metaData}</p>
-        <p className="description-text">{prop.description}</p>
-        <div id={prop.languageID} className="lang-area">
-          {langlist.map((lang) => {
-            return <div className="lang">{lang}</div>
-          })}
-        </div>
-      </div>
-    </div>
-  )
-}
+//   return (
+//     <div d="" className="job-content">
+//       <div className="image-area">
+//         <Link to={prop.to} target="_blank" rel="noreferrer">
+//           <img
+//             src={prop.imagesrc}
+//             className="image-prop"
+//             alt={prop.imagetitle}
+//           />
+//         </Link>
+//       </div>
+//       <div className="description-area">
+//         <h1 className="title-text">{prop.title}</h1>
+//         <p className="position-text">{prop.position}</p>
+//         <p className="meta-data"> {prop.metaData}</p>
+//         <p className="description-text">{prop.description}</p>
+//         <div id={prop.languageID} className="lang-area">
+//           {langlist.map((lang) => {
+//             return <div className="lang">{lang}</div>
+//           })}
+//         </div>
+//       </div>
+//     </div>
+//   )
+// }
 
 const Project = (prop) => {
   //title, position, description, imagesrc, imagetitle, to, languageID, langs, github
