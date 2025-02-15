@@ -5,7 +5,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import StyleLine from '../StyleLine'
 
 // Experience
-import icode from '../../assets/images/icode.png'
+// import icode from '../../assets/images/icode.png'
 import mathgpt from '../../assets/images/mathgpt.png'
 import flow from '../../assets/images/flow.png'
 import codology from '../../assets/images/codology.png'
