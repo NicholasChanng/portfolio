@@ -41,7 +41,7 @@ const Experience = () => {
               langlist="React,Plasmo,RESTful APIs,TypeScript,HTML,CSS"
             />
 
-            <Experience2
+            {/* <Experience2
               title="iCode School Franchise"
               position="Instructor"
               metaData="On-site | May 2024 - July 2024"
@@ -50,7 +50,7 @@ const Experience = () => {
               to="https://icodeschool.com/"
               languageID="icode-lang"
               langlist="Python,JavaScript,HTML,CSS"
-            />
+            /> */}
 
             <Experience1
               title="Flow"
