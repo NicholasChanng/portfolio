@@ -30,14 +30,12 @@ const Education = () => {
                 (Python)
               </li>
               <br />
-              Activities:
-              <li>Business Member at Cornell Hack4Impact</li>
-              <li>Project Manager at Cornell Custom Silicon Systems (C2S2)</li>
-              <li>Consulting Director of Cornell Webdev</li>
-              <li>
-                Member of Association of Computer Science Undergraduates (ACSU)
-              </li>
-              <li>Member of Chinese Student Association (CSA)</li>
+              Leadership and Activities:
+              <li>Cornell Hack4Impact (Business Team) </li>
+              <li>Cornell Custom Silicon Systems (Project Manager)</li>
+              <li>Cornell Webdev (Consulting Director)</li>
+              <li>Association of Computer Science Undergraduates (ACSU)</li>
+              <li>Chinese Student Association (CSA)</li>
             </div>
             <div d="" className="brhs">
               <span className="brhs-title">
@@ -45,17 +43,14 @@ const Education = () => {
                 <p>Graduated, June 2023</p>
               </span>
               <span>GPA: 4.7</span>
-              <span>Graduated High Honors (Top 5%)</span>
+              <span>Top 5% of Graduating Class</span>
               <br />
-              Activities and Leadership:
-              <li>President of Esports Club</li>
-              <li>
-                Marketing and Media Director of Mu Alpha Theta (Math Honor
-                Society)
-              </li>
-              <li>Member of National Honor Society</li>
-              <li>Member of Spanish National Honor Society</li>
-              <li>Member of Code Club</li>
+              Leadership and Activities:
+              <li>Esports Club (President)</li>
+              <li>Mu Alpha Theta (Marketing and Media Director)</li>
+              <li>National Honor Society</li>
+              <li>Spanish National Honor Society</li>
+              <li>Code Club</li>
             </div>
           </div>
         </div>
