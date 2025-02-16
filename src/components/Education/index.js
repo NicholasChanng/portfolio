@@ -32,7 +32,7 @@ const Education = () => {
               <br />
               Activities:
               <li>Business Member at Cornell Hack4Impact</li>
-              <li>Project Manageer at Cornell Custom Silicon Systems (C2S2)</li>
+              <li>Project Manager at Cornell Custom Silicon Systems (C2S2)</li>
               <li>Consulting Director of Cornell Webdev</li>
               <li>
                 Member of Association of Computer Science Undergraduates (ACSU)
