@@ -4,16 +4,17 @@ const Education = () => {
   return (
     <section
       data-aos="fade-up"
+      data-aos-once="true"
       id="education"
       className="section education-section"
     >
       <div className="page education-page">
         <div className="flex-box">
-          <h1 data-aos="fade-up" className="title">
+          <h1 data-aos="fade-up" data-aos-once="true" className="title">
             Education
           </h1>
           <div className="description-area">
-            <div data-aos="fade-up" className="cornell">
+            <div data-aos="fade-up" data-aos-once="true" className="cornell">
               <span className="cornell-title">
                 <h1 className="title">Cornell University</h1>
                 <p>Expected Graduation, May 2026</p>
@@ -41,7 +42,7 @@ const Education = () => {
               <li>Association of Computer Science Undergraduates (ACSU)</li>
               <li>Chinese Student Association (CSA)</li>
             </div>
-            <div data-aos="fade-up" className="brhs">
+            <div data-aos="fade-up" data-aos-once="true" className="brhs">
               <span className="brhs-title">
                 <h1 className="title">Bridgewater-Raritan High School</h1>
                 <p>Graduated, June 2023</p>

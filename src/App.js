@@ -11,12 +11,13 @@ import 'aos/dist/aos.css'
 
 function App() {
   useEffect(() => {
-    // Initialize AOS
     AOS.init({
-      duration: 1000, // Animation duration
-      once: true, // Whether animation should happen only once
-      delay: 300,
+      duration: 1000,
+      once: true,
+      delay: 150,
     })
+
+    // return () => AOS.refresh() // Ensures proper initialization
   }, [])
   return (
     <>

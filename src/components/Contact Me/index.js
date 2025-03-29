@@ -29,6 +29,7 @@ const Contact = () => {
     <>
       <section
         data-aos="fade-up"
+        data-aos-once="true"
         id="contact"
         className="section contact-section"
       >
