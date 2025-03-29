@@ -15,6 +15,7 @@ function App() {
       duration: 1000,
       once: true,
       delay: 150,
+      offset: 1000000,
     })
 
     // return () => AOS.refresh() // Ensures proper initialization

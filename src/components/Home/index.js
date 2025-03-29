@@ -24,6 +24,7 @@ const Home = () => {
       <section
         data-aos="fade-up"
         data-aos-once="true"
+        data-aos-offset="200"
         id="home"
         className="section home-section"
       >

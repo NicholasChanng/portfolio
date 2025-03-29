@@ -10,15 +10,23 @@ import Skills from './Skills'
 
 const About = () => {
   return (
-    <section
-      data-aos="fade-up"
-      data-aos-once="true"
-      className="section about-section"
-    >
+    <section className="section about-section">
       <div className="page about-page">
         <div className="flex-box">
-          <h1 className="header">About Me</h1>
-          <div className="content-area">
+          <h1
+            data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-offset="200"
+            className="header"
+          >
+            About Me
+          </h1>
+          <div
+            data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-offset="100"
+            className="content-area"
+          >
             <div className="description-text">
               <p>
                 I'm a passionate coder from New Jersey looking for any tech

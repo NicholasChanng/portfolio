@@ -27,21 +27,24 @@ const Contact = () => {
   }
   return (
     <>
-      <section
-        data-aos="fade-up"
-        data-aos-once="true"
-        id="contact"
-        className="section contact-section"
-      >
+      <section id="contact" className="section contact-section">
         <div className="page">
           <div className="text-zone">
-            <h1>Contact Me</h1>
-            <p>
+            <h1 data-aos="fade-up" data-aos-once="true" data-aos-offset="450">
+              Contact Me
+            </h1>
+            <p data-aos="fade-up" data-aos-once="true" data-aos-offset="450">
               I am actively seeking internships and jobs in the tech field, but
               any opportunties are greatly appreciated. Please feel free to
               reach out using the form below.
             </p>
-            <form ref={form} onSubmit={sendEmail}>
+            <form
+              data-aos="fade-up"
+              data-aos-once="true"
+              data-aos-offset="400"
+              ref={form}
+              onSubmit={sendEmail}
+            >
               <li className="half">
                 <input
                   className="input"
