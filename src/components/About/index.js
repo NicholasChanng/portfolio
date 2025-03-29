@@ -10,7 +10,7 @@ import Skills from './Skills'
 
 const About = () => {
   return (
-    <section d="" className="section about-section">
+    <section data-aos="fade-up" className="section about-section">
       <div className="page about-page">
         <div className="flex-box">
           <h1 className="header">About Me</h1>
