@@ -192,7 +192,7 @@ const Experience = () => {
 
 const Experience1 = (prop) => {
   //title, position, description, imagesrc, imagetitle, to, languageID, langs, github
-  // test
+
   let langlist = prop.langlist.split(',')
 
   return (
