@@ -39,7 +39,7 @@ const Experience = () => {
               title="MathGPT"
               position="Software Engineer Intern"
               metaData="Remote | May 2024 - July 2024"
-              description="Coded an AI Calculus Calculator Chrome Extension"
+              description="AI Math Tutor Chrome Extension"
               imagesrc={mathgpt}
               to="https://math-gpt.org"
               languageID="mathgpt-lang"
@@ -61,19 +61,19 @@ const Experience = () => {
               title="Flow"
               position="Software Engineer Intern"
               metaData="Remote | Jan 2024 - May 2024"
-              description="Coded the Flow Turbo Platform and Flow Website"
+              description="Flow Turbo Platform"
               imagesrc={flow}
               imagetitle="flow"
               to="https://flowai.tech/"
               languageID="flow-lang"
-              langlist="React,Python,Flask,REST APIs,TypeScript,HTML,CSS,DevOps"
+              langlist="Python,Flask,REST APIs,React,TypeScript,HTML,CSS,DevOps"
             />
 
             <Experience1
               title="Codology"
               position="Frontend Engineer Intern"
               metaData="Remote | Oct 2022 - Dec 2023"
-              description="Coded the Codology Website"
+              description="Codology Website"
               imagesrc={codology}
               imagetitle="codology"
               to="https://www.codology.org/"
@@ -85,7 +85,7 @@ const Experience = () => {
               title="New Jersey Cybersecurity and Communications Integration Cell"
               position="Cybersecurity Intern"
               metaData="Remote | Jul 2022 - Aug 2022"
-              description="1 out of 22 interns chosen in all of NJ"
+              description="NJ Cybersecurity Division (2022 Cohort)"
               imagesrc={njccic}
               imagetitle="njccic"
               to="https://www.cyber.nj.gov/"

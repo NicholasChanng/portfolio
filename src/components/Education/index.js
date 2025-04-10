@@ -30,21 +30,17 @@ const Education = () => {
               <span>GPA: 3.7/4.0, Dean's List</span>
               <br />
               Relevant Coursework:
+              <li>Object-Oriented Programming and Data Structures</li>
+              <li>Data Structures and Functional Programming</li>
               <li>Introduction to Analysis of Algorithms</li>
-              <li>Introduction to Database Systems (SQL) </li>
-              <li>Data Structures and Functional Programming (OCaml)</li>
-              <li>Object-Oriented Programming and Data Structures (Java)</li>
-              <li>
-                Introduction to Computing: A Design and Development Perspective
-                (Python)
-              </li>
+              <li>Introduction to Database Systems </li>
               <br />
               Leadership and Activities:
-              <li>Cornell Hack4Impact (Business Team) </li>
-              <li>Cornell Custom Silicon Systems (Project Manager)</li>
+              <li>Cornell Hack4Impact </li>
+              <li>Cornell Custom Silicon Systems (C2S2)</li>
               <li>Cornell Webdev (Consulting Director)</li>
-              <li>Association of Computer Science Undergraduates (ACSU)</li>
-              <li>Chinese Student Association (CSA)</li>
+              <li>Association of Computer Science Undergraduates</li>
+              <li>Chinese Student Association</li>
             </div>
             <div
               data-aos="fade-up"
