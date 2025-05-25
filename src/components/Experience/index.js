@@ -8,10 +8,11 @@ import StyleLine from '../StyleLine'
 // import icode from '../../assets/images/icode.png'
 import mathgpt from '../../assets/images/mathgpt.png'
 import flow from '../../assets/images/flow.png'
-import codology from '../../assets/images/codology.png'
-import njccic from '../../assets/images/njccic.png'
+// import codology from '../../assets/images/codology.png'
+// import njccic from '../../assets/images/njccic.png'
 
 // Projects
+import triptune from '../../assets/images/triptune.png'
 import electai from '../../assets/images/electai.png'
 import integral from '../../assets/images/integralCalculator.png'
 import cs3110 from '../../assets/images/cs3110.png'
@@ -43,7 +44,7 @@ const Experience = () => {
               imagesrc={mathgpt}
               to="https://math-gpt.org"
               languageID="mathgpt-lang"
-              langlist="React,Plasmo,RESTful APIs,TypeScript,HTML,CSS"
+              langlist="Microsoft Phi-3 API, React,RESTful API,TypeScript,HTML,CSS"
             />
 
             {/* <Experience2
@@ -69,7 +70,7 @@ const Experience = () => {
               langlist="Python,Flask,REST APIs,React,TypeScript,HTML,CSS,DevOps"
             />
 
-            <Experience1
+            {/* <Experience1
               title="Codology"
               position="Frontend Engineer Intern"
               metaData="Remote | Oct 2022 - Dec 2023"
@@ -91,7 +92,7 @@ const Experience = () => {
               to="https://www.cyber.nj.gov/"
               languageID="njccic-lang"
               langlist="Cybersecurity"
-            />
+            /> */}
           </div>
         </div>
       </section>
@@ -110,6 +111,17 @@ const Experience = () => {
               Projects
             </h1>
             <div className="project-area">
+              <Project
+                title="TripTune"
+                imagesrc={triptune}
+                imagetitle="triptune"
+                to="http://4300showcase.infosci.cornell.edu:5240/"
+                description="NLP Vacation Trip Planner"
+                languageID="TripTune"
+                langlist="Python, Scikit-learn, Flask, JavaScript, HTML, CSS"
+                github="https://github.com/nfq2/4300-final-project"
+              />
+
               <Project
                 title="ElectAI"
                 imagesrc={electai}
